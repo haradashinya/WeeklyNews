@@ -16,6 +16,7 @@
 {
     NSMutableArray *newsTitles;
     NSMutableArray *newDataArray;
+    NewsModel *newsModel;
     // currentRowofindex;
     int currentRow;
 }
@@ -23,10 +24,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.dataArray = [[NSMutableArray alloc] initWithObjects:@"One", @"Two", @"Three", @"Four", @"Five", nil];
+    newsModel = [[NewsModel alloc] init];
+    newsModel.delegate = self;
+    [newsModel fetchNews];
     for(int i = 0 ; i < 20;i++){
         [self.dataArray addObject:[NSString stringWithFormat:@"%i",i]];
     }
     newDataArray = [[NSMutableArray alloc] initWithObjects:@"New One", @"New Two", @"New Three", @"New Four", @"New Five", nil];
+
+}
+
+-(void)receivedNews
+{
+    NSLog(@"received");
 }
 
 

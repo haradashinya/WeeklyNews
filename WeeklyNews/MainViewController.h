@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AFNetworking.h"
+#import "NewsModel.h"
 
 @interface MainViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
