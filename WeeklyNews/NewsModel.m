@@ -17,10 +17,12 @@
 -(void)fetchNews
 {
     
-    NSURL *url = [[NSURL alloc] initWithString:@"http://itunes.apple.com/search?term=harry&country=us&entity=movie"];
+    NSURL *url = [[NSURL alloc] initWithString:@"http://localhost:5000/news"];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
         [self.items addObject:JSON];
+        NSArray *data = [JSON valueForKey:@"data"];
+        NSLog(@"data is %@",data);
         [self.delegate receivedNews ];
     } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
         NSLog(@"Request Failed with Error: %@, %@", error, error.userInfo);
