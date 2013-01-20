@@ -9,6 +9,7 @@ import re
 
 
 app = Flask(__name__)
+body = None
 link = Link()
 
 def is_valid_link(link):
@@ -17,8 +18,11 @@ def is_valid_link(link):
         return True
     return False
 
-def news_links(dom_content):
-    soup = BeautifulSoup(dom_content)
+
+def fetch_news():
+    r = requests.get("http://javascriptweekly.com/archive/")
+    body = r.content
+    soup = BeautifulSoup(body)
     links = soup.findAll("a")
     res = []
     for link in links:
@@ -31,9 +35,7 @@ def inject_links(links):
     for l in links:
         tmp  =  re.split(r'<a\shref=',str(l))
         number =  re.sub(r'\.*html','',tmp[1]).split(">")[0]
-        if re.match(r'"\/"',str(number)):
-            pass
-        else:
+        if not re.match(r'"\/"',str(number)):
             link.objects.append(
                     {"number": int(number.strip('"')),
                         "body": l}
@@ -49,7 +51,7 @@ def latest_link():
     latest = link.objects.pop()
     return latest
 
-        
+
     
 
 @app.route("/")
@@ -58,10 +60,12 @@ def hello():
 
 @app.route("/news")
 def news():
-    r = requests.get("http://javascriptweekly.com/archive/")
-    print r.status_code
-    body = r.content
-    links = news_links(body)
+    # set link.objects by fetch_news
+    fetch_news()
+    print link.objects
+
+
+
     return jsonify(data=["apple","orange","banana"])
 
 
