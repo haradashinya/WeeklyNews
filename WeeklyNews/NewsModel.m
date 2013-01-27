@@ -17,12 +17,20 @@
 -(void)fetchNews
 {
     
-    NSURL *url = [[NSURL alloc] initWithString:@"http://localhost:5000/news"];
+    NSURL *url = [[NSURL alloc] initWithString:@"http://localhost:5000/latest"];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
-    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
-        [self.items addObject:JSON];
-        NSArray *data = [JSON valueForKey:@"data"];
-        NSLog(@"data is %@",data);
+    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, NSString  *JSON) {
+        
+        for (NSDictionary *obj in [JSON valueForKey:@"data"]){
+            NSString *content = [obj valueForKey:@"content"];
+            NSString *href = [obj valueForKey:@"href"];
+            if (content != NULL || href != NULL){
+                [self.items addObject:@{@"content": content,@"href": href}];
+            }
+        }
+        NSLog(@"self.items is %@",self.items);
+        
+        
         [self.delegate receivedNews ];
     } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
         NSLog(@"Request Failed with Error: %@, %@", error, error.userInfo);

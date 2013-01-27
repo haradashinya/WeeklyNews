@@ -1,5 +1,7 @@
 from BeautifulSoup import BeautifulSoup
+from flask import jsonify
 import re
+import json
 from pyquery import PyQuery as pq
 
 

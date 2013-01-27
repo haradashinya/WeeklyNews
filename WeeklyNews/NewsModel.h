@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "AFNetworking.h"
+#import <JSONKit.h>
+#import "JSONKit.h"
+
 
 @interface NewsModel : NSObject
 @property (nonatomic,strong) id delegate;
