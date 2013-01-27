@@ -4,6 +4,7 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+BeautifulSoup	models/link.py	/^from BeautifulSoup import BeautifulSoup$/;"	i
 Flask	app.py	/^from flask import Flask$/;"	i
 Link	app.py	/^from models.link import Link$/;"	i
 Link	models/link.py	/^class Link(object):$/;"	c
@@ -11,15 +12,25 @@ __init__	models/link.py	/^    def __init__(self):$/;"	m	class:Link
 app	app.py	/^app = Flask(__name__)$/;"	v
 body	app.py	/^body = None$/;"	v
 fetch_news	app.py	/^def fetch_news():$/;"	f
+format	models/link.py	/^    def format(self,news):$/;"	m	class:Link
 hello	app.py	/^def hello():$/;"	f
 inject_links	app.py	/^def inject_links(links):$/;"	f
+is_valid	models/link.py	/^    def is_valid(self,arr):$/;"	m	class:Link
 is_valid_link	app.py	/^def is_valid_link(link):$/;"	f
 json	app.py	/^import json$/;"	i
+json	models/link.py	/^import json$/;"	i
 jsonify	app.py	/^from flask import jsonify$/;"	i
+jsonify	models/link.py	/^from flask import jsonify$/;"	i
+latest	app.py	/^def latest():$/;"	f
 latest_link	app.py	/^def latest_link():$/;"	f
 link	app.py	/^link = Link()$/;"	v
 news	app.py	/^def news():$/;"	f
+pq	models/link.py	/^from pyquery import PyQuery as pq$/;"	i
 re	app.py	/^import re$/;"	i
+re	models/link.py	/^import re$/;"	i
 requests	app.py	/^import requests$/;"	i
+requests	models/link.py	/^import requests$/;"	i
 sort_by	models/link.py	/^    def sort_by(self):$/;"	m	class:Link
 sorted_links	app.py	/^def sorted_links(links):$/;"	f
+trim_content	models/link.py	/^    def trim_content(self,content):$/;"	m	class:Link
+trim_href	models/link.py	/^    def trim_href(self,href):$/;"	m	class:Link
