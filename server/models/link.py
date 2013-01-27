@@ -34,8 +34,10 @@ class Link(object):
             return res
 
     def trim_href(self,href):
-        res = href.replace("title","")
-        return href
+        print "trim href"
+        res = href.replace("title","").replace("\\",'')
+        print res
+        return res
 
     def format(self,news):
         target_src = news["body"]
@@ -54,7 +56,6 @@ class Link(object):
             else:
                 continue
                 print "not found"
-        print res
         self.weekly_news = res
 
 
