@@ -59,14 +59,24 @@ def hello():
     return "hellooo"
 
 @app.route("/news")
+# setup method
+# insert into all news information into link.objects
 def news():
     # set link.objects by fetch_news
-    fetch_news()
-    print link.objects
-
-
-
+    if not link.objects:
+        fetch_news()
     return jsonify(data=["apple","orange","banana"])
+
+
+@app.route("/latest")
+def latest():
+    if not link.objects:
+        fetch_news()
+    link.current_news = link.objects.pop()
+    link.format(link.current_news)
+    print link.weekly_news
+    return "fooo"
+
 
 
 
