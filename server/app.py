@@ -74,7 +74,7 @@ def latest():
         fetch_news()
     link.current_news = link.objects.pop()
     link.format(link.current_news)
-    print link.weekly_news
+    #print link.weekly_news
     return "fooo"
 
 

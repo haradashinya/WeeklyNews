@@ -25,24 +25,33 @@ class Link(object):
         return False
 
 
+    def trim_content(self,content):
+        str = content.split(">")
+        if len(str) > 1:
+            res =  str[1].replace("</a","").strip('"')
+            return res
 
+    def trim_href(self,href):
+        res = href.replace("title","").strip('"')
+        return href
 
     def format(self,news):
         target_src = news["body"]
         r = requests.get("http://javascriptweekly.com/archive/114.html")
         res = []
         d = pq(r.content)
-        links =  str(d("td").find("a")).strip(" ").split("<a")
+        links =  str(d("td").find("a")).strip("'").split("href")
         # if title exist then append res
         for link in links:
             if "title" in link:
-                dd =  link.split(" ")
-                print dd
+                dd =  link.split("=")
+                res.append({
+                    "href":self.trim_href(dd[1]),
+                    "content":self.trim_content(dd[2])
+                    })
             else:
                 continue
                 print "not found"
-
-
         self.weekly_news = res
 
 
