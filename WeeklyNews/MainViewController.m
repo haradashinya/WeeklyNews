@@ -28,7 +28,7 @@
     for (int i = 0 ; i < 10;i++){
         [self.dataArray addObject:[NSString stringWithFormat:@"%i",i]];
     }
-    newsModel = [[NewsModel alloc] init];
+    newsModel = [NewsModel shared];
     newsModel.delegate = self;
     [newsModel fetchNews];
     for(int i = 0 ; i < 20;i++){
@@ -124,7 +124,7 @@
     @try {
         NSDictionary *dic = [newsModel.items objectAtIndex:indexPath.row];
         NSString *href = [dic objectForKey:@"href"];
-        NSLog(@"href is %@",href);
+        newsModel.currentHref = href;
         DetailViewController *dvc = [[DetailViewController alloc] init];
         [self.navigationController pushViewController:dvc animated:NO];
 

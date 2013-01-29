@@ -9,9 +9,24 @@
 #import "NewsModel.h"
 
 @implementation NewsModel
+
+
+
+static NewsModel *newsModel;
+
++(id)shared
+{
+    if (!newsModel){
+        newsModel = [[NewsModel alloc] init];
+        newsModel.items = [[NSMutableArray alloc] init];
+    }
+    return newsModel;
+}
+
+
 -(id)init
 {
-    self.items = [[NSMutableArray alloc] init];
+        self.items = [[NSMutableArray alloc] init];
     return self;
 }
 -(void)fetchNews

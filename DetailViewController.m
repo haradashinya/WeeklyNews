@@ -13,11 +13,16 @@
 @end
 
 @implementation DetailViewController
+{
+    NewsModel *newsModel;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        newsModel = [NewsModel shared];
+        
         // Custom initialization
     }
     return self;
@@ -31,7 +36,8 @@
 // ここにWebViewをロードする。
 -(void)viewDidAppear:(BOOL)animated
 {
-    NSLog(@"view did appear");
+    NSString *href = [newsModel currentHref];
+    NSLog(@"view did appear %@",href);
 }
 
 - (void)didReceiveMemoryWarning

@@ -15,6 +15,8 @@
 @interface NewsModel : NSObject
 @property (nonatomic,strong) id delegate;
 @property (nonatomic,strong) NSMutableArray *items;
+@property (nonatomic,strong) NSString *currentHref;
++(id)shared;
 -(void)fetchNews;
 -(void)receivedNewsWith:(NSArray *)data;
 -(void)receivedNews;
