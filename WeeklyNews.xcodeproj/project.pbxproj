@@ -24,6 +24,7 @@
 		06D2DC6B169EFF11003158D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D2DC46169EFF11003158D7 /* Foundation.framework */; };
 		06D2DC73169EFF11003158D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06D2DC71169EFF11003158D7 /* InfoPlist.strings */; };
 		06D2DC76169EFF11003158D7 /* WeeklyNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2DC75169EFF11003158D7 /* WeeklyNewsTests.m */; };
+		06D968D716B814E700CFC56B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D968D616B814E700CFC56B /* DetailViewController.m */; };
 		87DC28FCA8F34AB39D76362C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0560089234514A80BD810BE1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,8 @@
 		06D2DC72169EFF11003158D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		06D2DC74169EFF11003158D7 /* WeeklyNewsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeeklyNewsTests.h; sourceTree = "<group>"; };
 		06D2DC75169EFF11003158D7 /* WeeklyNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeeklyNewsTests.m; sourceTree = "<group>"; };
+		06D968D516B814E700CFC56B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		06D968D616B814E700CFC56B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		3E01ECD67F804691B4558771 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -94,6 +97,8 @@
 		06D2DC35169EFF10003158D7 = {
 			isa = PBXGroup;
 			children = (
+				06D968D516B814E700CFC56B /* DetailViewController.h */,
+				06D968D616B814E700CFC56B /* DetailViewController.m */,
 				06D2DC4A169EFF11003158D7 /* WeeklyNews */,
 				06D2DC6E169EFF11003158D7 /* WeeklyNewsTests */,
 				06D2DC43169EFF10003158D7 /* Frameworks */,
@@ -301,6 +306,7 @@
 				06D2DC55169EFF11003158D7 /* MainAppDelegate.m in Sources */,
 				06D2DC61169EFF11003158D7 /* MainViewController.m in Sources */,
 				064B10F116A04D45008FB4C9 /* NewsModel.m in Sources */,
+				06D968D716B814E700CFC56B /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -44,6 +44,7 @@
 
 -(void)receivedNews
 {
+    NSLog(@"received");
     [self.tableView reloadData];
 }
 
@@ -101,10 +102,9 @@
     }
     @try {
         if (newsModel.items){
+            cell.textLabel.text = [[newsModel.items objectAtIndex:indexPath.row] objectForKey:@"content"];
             // タイトルを表示する.
-            [cell.textLabel setText:[[newsModel.items  objectAtIndex:indexPath.row] valueForKey:@"content"]];
-            NSLog(@"newsModel.items is %i",[newsModel.items count]);
-            NSLog(@"indexPath.row is %i",indexPath.row);
+
         }
     }
     @catch (NSException * e) {
@@ -125,6 +125,9 @@
         NSDictionary *dic = [newsModel.items objectAtIndex:indexPath.row];
         NSString *href = [dic objectForKey:@"href"];
         NSLog(@"href is %@",href);
+        DetailViewController *dvc = [[DetailViewController alloc] init];
+        [self.navigationController pushViewController:dvc animated:NO];
+
     }
     // if tapped Load More Btn;
     @catch (NSException * e) {
