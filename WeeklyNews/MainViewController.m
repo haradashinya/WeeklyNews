@@ -36,7 +36,7 @@
 
 -(void)receivedNews
 {
-    NSLog(@"received");
+    [self.tableView reloadData];
 }
 
 
@@ -67,8 +67,6 @@
     return 1;
 }
 - (void)scrollViewDidEndDecelerating:(UITableView *)tableView {
-//    NSLog(@"%@",NSStringFromCGPoint(tableView.contentOffset));
-    NSLog(@"%f",tableView.contentOffset.y);
     if (tableView.contentOffset.y > 0) {
         // Fetch data
         [self loadMoreCell];
@@ -94,10 +92,15 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] ;
     }
     @try {
-        [cell.textLabel setText:[self.dataArray objectAtIndex:indexPath.row]];
+        if (newsModel.items){
+            // タイトルを表示する.
+            [cell.textLabel setText:[[newsModel.items  objectAtIndex:indexPath.row] valueForKey:@"content"]];
+            NSLog(@"newsModel.items is %i",[newsModel.items count]);
+            NSLog(@"indexPath.row is %i",indexPath.row);
+        }
     }
     @catch (NSException * e) {
-        [cell.textLabel setText:@"Footer"];
+        [cell.textLabel setText:@""];
     }
     [cell setSelectionStyle:UITableViewCellStyleValue2];
     // Configure the cell.

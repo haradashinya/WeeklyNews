@@ -58,14 +58,6 @@ def latest_link():
 def hello():
     return "hellooo"
 
-@app.route("/news")
-# setup method
-# insert into all news information into link.objects
-def news():
-    # set link.objects by fetch_news
-    if not link.objects:
-        fetch_news()
-    return jsonify(data=["apple","orange","banana"])
 
 
 @app.route("/latest")

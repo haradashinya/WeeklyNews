@@ -41,11 +41,15 @@ class Link(object):
         target_src = news["body"]
         r = requests.get("http://javascriptweekly.com/archive/114.html")
         res = []
+        self.weekly_news  = []
         d = pq(r.content)
         links =  str(d("td").find("a")).strip("'").split("href")
         # if title exist then append res
+        # append uniq  data by using idx
+        idx = 0
         for link in links:
-            if "title" in link:
+            idx += 1 
+            if "title" in link and idx % 2 != 0:
                 dd =  link.split("=")
                 res.append({
                     "href":u"%s" % self.trim_href(dd[1]),
@@ -53,6 +57,8 @@ class Link(object):
             else:
                 continue
                 print "not found"
+
         self.weekly_news = res
+        print len(res)
 
 

@@ -28,7 +28,6 @@
                 [self.items addObject:@{@"content": content,@"href": href}];
             }
         }
-        NSLog(@"self.items is %@",self.items);
         
         
         [self.delegate receivedNews ];

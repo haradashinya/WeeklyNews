@@ -24,7 +24,6 @@ jsonify	models/link.py	/^from flask import jsonify$/;"	i
 latest	app.py	/^def latest():$/;"	f
 latest_link	app.py	/^def latest_link():$/;"	f
 link	app.py	/^link = Link()$/;"	v
-news	app.py	/^def news():$/;"	f
 pq	models/link.py	/^from pyquery import PyQuery as pq$/;"	i
 re	app.py	/^import re$/;"	i
 re	models/link.py	/^import re$/;"	i
