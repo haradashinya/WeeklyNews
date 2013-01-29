@@ -23,14 +23,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.dataArray = [[NSMutableArray alloc] initWithObjects:@"One", @"Two", @"Three", @"Four", @"Five", nil];
+    // 最初に表示するCell
+    self.dataArray = [[NSMutableArray alloc] init];
+    for (int i = 0 ; i < 10;i++){
+        [self.dataArray addObject:[NSString stringWithFormat:@"%i",i]];
+    }
     newsModel = [[NewsModel alloc] init];
     newsModel.delegate = self;
     [newsModel fetchNews];
     for(int i = 0 ; i < 20;i++){
         [self.dataArray addObject:[NSString stringWithFormat:@"%i",i]];
     }
-    newDataArray = [[NSMutableArray alloc] initWithObjects:@"New One", @"New Two", @"New Three", @"New Four", @"New Five", nil];
+    // newDataArrayの数だけ、Cellを増やす。
+    newDataArray = [[NSMutableArray alloc] init];
+    for(int i = 0; i < 20;i++){
+        [newDataArray addObject:[NSString stringWithFormat:@"%i",i]];
+    }
 
 }
 
@@ -70,7 +78,7 @@
     if (tableView.contentOffset.y > 0) {
         // Fetch data
         [self loadMoreCell];
-        NSLog(@"Sroll is End");
+        [newsModel fetchNews];
     }
 }
 
@@ -114,7 +122,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     @try {
-        NSLog(@"Row selected at indexPath: %@", [self.dataArray objectAtIndex:indexPath.row]);
+        NSDictionary *dic = [newsModel.items objectAtIndex:indexPath.row];
+        NSString *href = [dic objectForKey:@"href"];
+        NSLog(@"href is %@",href);
     }
     // if tapped Load More Btn;
     @catch (NSException * e) {
