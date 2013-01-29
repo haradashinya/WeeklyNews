@@ -24,8 +24,10 @@
         for (NSDictionary *obj in [JSON valueForKey:@"data"]){
             NSString *content = [obj valueForKey:@"content"];
             NSString *href = [obj valueForKey:@"href"];
-            if (content != NULL || href != NULL){
-                [self.items addObject:@{@"content": content,@"href": href}];
+            if (content != NULL || href != NULL ){
+                if (![content isEqualToString:@"None"]){
+                    [self.items addObject:@{@"content": content,@"href": href}];
+                }
             }
         }
         
