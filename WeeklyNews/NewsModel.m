@@ -26,11 +26,13 @@ static NewsModel *newsModel;
 
 -(id)init
 {
-        self.items = [[NSMutableArray alloc] init];
+    [self addObserver:self forKeyPath:@"currentNumber" options:NSKeyValueObservingOptionNew context:nil];
+    self.items = [[NSMutableArray alloc] init];
     return self;
 }
 -(void)fetchNews
 {
+    [self fetchLatestNumber];
     
     NSURL *url = [[NSURL alloc] initWithString:@"http://localhost:5000/latest"];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
@@ -53,5 +55,34 @@ static NewsModel *newsModel;
     }];
     [operation start];
 }
+
+// fetch latest number from all articles
+-(void)fetchLatestNumber
+{
+    NSURL *url = [NSURL URLWithString:@"http://localhost:5000/latest_number"];
+    NSURLRequest *req = [NSURLRequest requestWithURL:url];
+    
+    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:req success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
+        self.currentNumber = [[JSON valueForKey:@"data"] intValue];
+        NSLog(@"called");
+    } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
+        return;
+    }];
+    [operation start];
+    
+}
+
+-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+{
+    if ([keyPath isEqualToString:@"currentNumber"]){
+        NSLog(@"currentNumber is %i",self.currentNumber);
+    }
+}
+
+
+
+
+
+
 
 @end

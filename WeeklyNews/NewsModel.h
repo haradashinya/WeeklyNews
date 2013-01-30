@@ -16,6 +16,7 @@
 @property (nonatomic,strong) id delegate;
 @property (nonatomic,strong) NSMutableArray *items;
 @property (nonatomic,strong) NSString *currentHref;
+@property (nonatomic,assign) int currentNumber;
 +(id)shared;
 -(void)fetchNews;
 -(void)receivedNewsWith:(NSArray *)data;

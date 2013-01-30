@@ -46,11 +46,6 @@
     NSString *baseURL = [href substringWithRange:NSMakeRange(1, [href length] -3)];
     
 
-    NSLog(@"decodeString is %@",baseURL);
-    
-    
-    
-    
 
     NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:baseURL]];
     [webView loadRequest:req];
