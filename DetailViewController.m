@@ -15,6 +15,7 @@
 @implementation DetailViewController
 {
     NewsModel *newsModel;
+    UIWebView *webView;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -36,8 +37,26 @@
 // ここにWebViewをロードする。
 -(void)viewDidAppear:(BOOL)animated
 {
+    
+    webView = [[UIWebView alloc] init];
+    CGRect rect = [[UIScreen mainScreen] bounds];
+    webView.frame = CGRectMake(0,0,rect.size.width,rect.size.height);
+    [webView setScalesPageToFit:YES];
     NSString *href = [newsModel currentHref];
-    NSLog(@"view did appear %@",href);
+    NSString *baseURL = [href substringWithRange:NSMakeRange(1, [href length] -3)];
+    
+
+    NSLog(@"decodeString is %@",baseURL);
+    
+    
+    
+    
+
+    NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:baseURL]];
+    [webView loadRequest:req];
+    [webView setBackgroundColor:[UIColor blackColor]];
+    [self.view addSubview:webView];
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "NewsModel.h"
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController<UIWebViewDelegate>
 
 @end

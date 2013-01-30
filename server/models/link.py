@@ -21,9 +21,7 @@ class Link(object):
     def is_valid(self,arr):
         for s in arr:
             if s in "title":
-                print "found"
                 return True
-        print "not found"
         return False
 
 
@@ -39,7 +37,7 @@ class Link(object):
 
     def format(self,news):
         target_src = news["body"]
-        r = requests.get("http://javascriptweekly.com/archive/114.html")
+        r = requests.get("http://javascriptweekly.com/archive/%i.html" % news["number"])
         res = []
         self.weekly_news  = []
         d = pq(r.content)
@@ -59,6 +57,5 @@ class Link(object):
                 print "not found"
 
         self.weekly_news = res
-        print len(res)
 
 

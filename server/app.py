@@ -64,6 +64,7 @@ def hello():
 def latest():
     if not link.objects:
         fetch_news()
+    print link.objects
     link.current_news = link.objects.pop()
     link.format(link.current_news)
     return jsonify(data=link.weekly_news)
