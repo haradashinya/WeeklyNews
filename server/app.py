@@ -58,6 +58,12 @@ def latest_link():
 def hello():
     return "hellooo"
 
+# return fetch latest_number
+@app.route("/latest_number")
+def latest_number():
+    fetch_news()
+    last = link.objects.pop()
+    return u"%s" % str(last["number"])
 
 
 @app.route("/latest")
