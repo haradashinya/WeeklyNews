@@ -79,7 +79,8 @@
     if (tableView.contentOffset.y > 0) {
         // Fetch data
         [self loadMoreCell];
-        [newsModel fetchNews];
+        // スクロールが一番下に行ったら、currentNumberを一つ減らして、currentNumberを監視しているメソッドが新しいニュースを取得する。
+        newsModel.currentNumber -= 1;
     }
 }
 

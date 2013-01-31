@@ -68,13 +68,11 @@ def latest_number():
 
 @app.route("/latest/<int:article_id>")
 def latest(article_id):
-    print "article_id is %i" % article_id
-    print article_id
     if not link.objects:
         fetch_news()
-    print link.objects
+    #link.current_news = link.objects.pop()
     link.current_news = link.objects.pop()
-    link.format(link.current_news)
+    link.format(link.current_news,article_id)
     return jsonify(data=link.weekly_news)
 
 

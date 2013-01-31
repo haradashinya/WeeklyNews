@@ -35,9 +35,11 @@ class Link(object):
         res = u'%s' % str(href).strip('\\').replace('title','').encode('utf-8')
         return res
 
-    def format(self,news):
+    # get news by article_id
+    def format(self,news,article_id):
         target_src = news["body"]
-        r = requests.get("http://javascriptweekly.com/archive/%i.html" % news["number"])
+        #r = requests.get("http://javascriptweekly.com/archive/%i.html" % news["number"])
+        r = requests.get("http://javascriptweekly.com/archive/%i.html" % article_id)
         res = []
         self.weekly_news  = []
         d = pq(r.content)
