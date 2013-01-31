@@ -53,7 +53,8 @@ class Link(object):
                 dd =  link.split("=")
                 res.append({
                     "href":u"%s" % self.trim_href(dd[1]),
-                    "content":u"%s" % self.trim_content(dd[2]) })
+                    "content":u"%s" % self.trim_content(dd[2])
+                    })
             else:
                 continue
                 print "not found"

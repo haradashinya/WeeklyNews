@@ -12,6 +12,7 @@
 #import "JSONKit.h"
 
 
+
 @interface NewsModel : NSObject
 @property (nonatomic,strong) id delegate;
 @property (nonatomic,strong) NSMutableArray *items;

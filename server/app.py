@@ -70,7 +70,6 @@ def latest_number():
 def latest(article_id):
     if not link.objects:
         fetch_news()
-    #link.current_news = link.objects.pop()
     link.current_news = link.objects.pop()
     link.format(link.current_news,article_id)
     return jsonify(data=link.weekly_news)

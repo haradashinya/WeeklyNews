@@ -26,6 +26,10 @@ static NewsModel *newsModel;
 
 -(id)init
 {
+    NSData *data = [@"<html><p>&#8211 Test</p></html>" dataUsingEncoding:NSUTF8StringEncoding];
+    NSLog(<#id, ...#>)
+
+    
     [self addObserver:self forKeyPath:@"currentNumber" options:NSKeyValueObservingOptionNew context:nil];
     self.items = [[NSMutableArray alloc] init];
     return self;
@@ -42,6 +46,17 @@ static NewsModel *newsModel;
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, NSString  *JSON) {
         
         for (NSDictionary *obj in [JSON valueForKey:@"data"]){
+            
+            NSString* html = @"<html><body>Simple HTML</body></html>";
+
+//            NSData* htmlData = [html dataUsingEncoding:NSASCIIStringEncoding];
+
+
+
+
+            
+            
+
             NSString *content = [obj valueForKey:@"content"];
             NSString *href = [obj valueForKey:@"href"];
             if (content != NULL || href != NULL ){
