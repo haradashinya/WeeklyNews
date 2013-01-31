@@ -37,7 +37,6 @@
 // ここにWebViewをロードする。
 -(void)viewDidAppear:(BOOL)animated
 {
-    
     webView = [[UIWebView alloc] init];
     CGRect rect = [[UIScreen mainScreen] bounds];
     webView.frame = CGRectMake(0,0,rect.size.width,rect.size.height);

@@ -66,8 +66,10 @@ def latest_number():
     return jsonify(data = str(last["number"]))
 
 
-@app.route("/latest")
-def latest():
+@app.route("/latest/<int:article_id>")
+def latest(article_id):
+    print "article_id is %i" % article_id
+    print article_id
     if not link.objects:
         fetch_news()
     print link.objects

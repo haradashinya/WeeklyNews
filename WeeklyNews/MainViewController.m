@@ -30,7 +30,7 @@
     }
     newsModel = [NewsModel shared];
     newsModel.delegate = self;
-    [newsModel fetchNews];
+    [newsModel fetchLatestNumber];
     for(int i = 0 ; i < 20;i++){
         [self.dataArray addObject:[NSString stringWithFormat:@"%i",i]];
     }

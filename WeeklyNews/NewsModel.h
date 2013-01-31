@@ -19,6 +19,7 @@
 @property (nonatomic,assign) int currentNumber;
 +(id)shared;
 -(void)fetchNews;
+-(void)fetchLatestNumber;
 -(void)receivedNewsWith:(NSArray *)data;
 -(void)receivedNews;
 

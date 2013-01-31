@@ -32,9 +32,12 @@ static NewsModel *newsModel;
 }
 -(void)fetchNews
 {
-    [self fetchLatestNumber];
+    // like 114.html
+    NSString *num = [[NSString alloc] initWithFormat:@"%d",self.currentNumber];
     
-    NSURL *url = [[NSURL alloc] initWithString:@"http://localhost:5000/latest"];
+    NSString *urlStr = [NSString stringWithFormat:@"http://localhost:5000/latest/%@",num];
+    
+    NSURL *url = [[NSURL alloc] initWithString: urlStr];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, NSString  *JSON) {
         
@@ -64,9 +67,8 @@ static NewsModel *newsModel;
     
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:req success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
         self.currentNumber = [[JSON valueForKey:@"data"] intValue];
-        NSLog(@"called");
     } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
-        return;
+        NSLog(@"errror: %@",[error localizedDescription]);
     }];
     [operation start];
     
@@ -74,8 +76,10 @@ static NewsModel *newsModel;
 
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
+    // 新しいニュース番号を取得できたら、ニュースを取得するようにする。
     if ([keyPath isEqualToString:@"currentNumber"]){
-        NSLog(@"currentNumber is %i",self.currentNumber);
+        NSLog(@"changed fifififfi");
+        [self fetchNews ];
     }
 }
 
