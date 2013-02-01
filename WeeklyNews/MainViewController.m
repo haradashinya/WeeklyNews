@@ -84,6 +84,11 @@
     }
 }
 
+// cellの高さの設定
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath  *)indexPath{
+    return 90.0;
+}
+
 
 
 // Customize the number of rows in the table view.
@@ -100,6 +105,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] ;
+        cell.textLabel.numberOfLines = 5;
     }
     @try {
         if (newsModel.items){
