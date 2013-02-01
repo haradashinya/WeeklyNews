@@ -27,7 +27,6 @@ static NewsModel *newsModel;
 -(id)init
 {
     NSData *data = [@"<html><p>&#8211 Test</p></html>" dataUsingEncoding:NSUTF8StringEncoding];
-    NSLog(<#id, ...#>)
 
     
     [self addObserver:self forKeyPath:@"currentNumber" options:NSKeyValueObservingOptionNew context:nil];
@@ -47,9 +46,8 @@ static NewsModel *newsModel;
         
         for (NSDictionary *obj in [JSON valueForKey:@"data"]){
             
-            NSString* html = @"<html><body>Simple HTML</body></html>";
+//            NSString* html = @"<html><body>Simple HTML</body></html>";
 
-//            NSData* htmlData = [html dataUsingEncoding:NSASCIIStringEncoding];
 
 
 
@@ -57,7 +55,8 @@ static NewsModel *newsModel;
             
             
 
-            NSString *content = [obj valueForKey:@"content"];
+            NSString *content = [ self parse:[obj valueForKey:@"content"]];
+            NSLog(@"content is %@",content);
             NSString *href = [obj valueForKey:@"href"];
             if (content != NULL || href != NULL ){
                 if (![content isEqualToString:@"None"]){
@@ -96,7 +95,21 @@ static NewsModel *newsModel;
         NSLog(@"changed fifififfi");
         [self fetchNews ];
     }
+    
 }
+
+-(NSString*)parse:(NSString*)str
+{
+    str  = [str stringByReplacingOccurrencesOfString:@"&ndash;" withString:@"-"];
+    str  = [str stringByReplacingOccurrencesOfString:@"&rdquo;" withString:@"\""];
+    str  = [str stringByReplacingOccurrencesOfString:@"&ldquo;" withString:@"\""];
+    str  = [str stringByReplacingOccurrencesOfString:@"&#8217;" withString:@"’"];
+    str  = [str stringByReplacingOccurrencesOfString:@"&#8211;" withString:@"-"];
+//    NSData *data = [@"<html><p>&#8211 Test</p></html>" dataUsingEncoding:NSUTF8StringEncoding];
+
+    return str;
+}
+
 
 
 

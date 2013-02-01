@@ -1,0 +1,605 @@
+TPods
+v5
+r1
+cCheck dependencies
+cProcessPCH /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch.pth Pods-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFImageRequestOperation.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPClient.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperation.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFJSONRequestOperation.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFJSONUtilities.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONUtilities.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFPropertyListRequestOperation.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFURLConnectionOperation.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFXMLRequestOperation.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/UIImageView+AFNetworking.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/JSONKit.o /Users/haradashinya/project/WeeklyNews/Pods/JSONKit/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/PodsDummy_Pods.o /Users/haradashinya/project/WeeklyNews/Pods/PodsDummy_Pods.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/libPods.a normal i386
+cCpHeader AFNetworking/AFNetworking/AFHTTPClient.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFHTTPClient.h
+cCpHeader AFNetworking/AFNetworking/AFHTTPRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFHTTPRequestOperation.h
+cCpHeader AFNetworking/AFNetworking/AFImageRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFImageRequestOperation.h
+cCpHeader AFNetworking/AFNetworking/AFJSONUtilities.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFJSONUtilities.h
+cCpHeader AFNetworking/AFNetworking/AFJSONRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFJSONRequestOperation.h
+cCpHeader AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFNetworkActivityIndicatorManager.h
+cCpHeader AFNetworking/AFNetworking/AFNetworking.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFNetworking.h
+cCpHeader AFNetworking/AFNetworking/AFPropertyListRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFPropertyListRequestOperation.h
+cCpHeader AFNetworking/AFNetworking/AFURLConnectionOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFURLConnectionOperation.h
+cCpHeader AFNetworking/AFNetworking/AFXMLRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFXMLRequestOperation.h
+cCpHeader AFNetworking/AFNetworking/UIImageView+AFNetworking.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/UIImageView+AFNetworking.h
+cCpHeader JSONKit/JSONKit.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/JSONKit.h
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000504916AD0000000000000110
+t1346967213
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050B7666A00000000003DCEF0
+t1354196586
+s4050672
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPClient.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperation.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFImageRequestOperation.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFJSONRequestOperation.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFJSONUtilities.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFPropertyListRequestOperation.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFURLConnectionOperation.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFXMLRequestOperation.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/JSONKit.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList
+c00000000510A8BBE00000000000007F3
+t1359645630
+s2035
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/PodsDummy_Pods.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/UIImageView+AFNetworking.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch.pth
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFHTTPClient.h
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFHTTPRequestOperation.h
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFImageRequestOperation.h
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFJSONRequestOperation.h
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFJSONUtilities.h
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFNetworkActivityIndicatorManager.h
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFNetworking.h
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFPropertyListRequestOperation.h
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFURLConnectionOperation.h
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFXMLRequestOperation.h
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/JSONKit.h
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/UIImageView+AFNetworking.h
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/libPods.a
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPClient.h
+c0000000050F014960000000000007F94
+t1357911190
+s32660
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPClient.m
+c0000000050F0149600000000000091C1
+t1357911190
+s37313
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+c0000000050F014960000000000001908
+t1357911190
+s6408
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+c0000000050F01496000000000000360D
+t1357911190
+s13837
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.h
+c0000000050F014960000000000001780
+t1357911190
+s6016
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.m
+c0000000050F0149600000000000026CC
+t1357911190
+s9932
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.h
+c0000000050F014960000000000000ED8
+t1357911190
+s3800
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m
+c0000000050F014960000000000001429
+t1357911190
+s5161
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONUtilities.h
+c0000000050F014960000000000000517
+t1357911190
+s1303
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONUtilities.m
+c0000000050F014960000000000002C6C
+t1357911190
+s11372
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h
+c0000000050F014960000000000000CA2
+t1357911190
+s3234
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m
+c0000000050F0149600000000000013AD
+t1357911190
+s5037
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFNetworking.h
+c0000000050F01496000000000000067F
+t1357911190
+s1663
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.h
+c0000000050F014960000000000000E5F
+t1357911190
+s3679
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m
+c0000000050F0149600000000000016FA
+t1357911190
+s5882
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+c0000000050F014960000000000004651
+t1357911190
+s18001
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+c0000000050F014960000000000005DC4
+t1357911190
+s24004
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.h
+c0000000050F0149600000000000014AB
+t1357911190
+s5291
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m
+c0000000050F014960000000000001A9D
+t1357911190
+s6813
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.h
+c0000000050F014960000000000001494
+t1357911190
+s5268
+
+N/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m
+c0000000050F0149600000000000018E1
+t1357911190
+s6369
+
+N/Users/haradashinya/project/WeeklyNews/Pods/JSONKit/JSONKit.h
+c00000000510530A50000000000002DBE
+t1359294629
+s11710
+
+N/Users/haradashinya/project/WeeklyNews/Pods/JSONKit/JSONKit.m
+c00000000510530A5000000000002B24E
+t1359294629
+s176718
+
+N/Users/haradashinya/project/WeeklyNews/Pods/Pods-prefix.pch
+c00000000510A85950000000000000064
+t1359644053
+s100
+
+N/Users/haradashinya/project/WeeklyNews/Pods/PodsDummy_Pods.m
+c00000000510A8595000000000000004E
+t1359644053
+s78
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPClient.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONUtilities.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/Pods/JSONKit/JSONKit.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/Pods/PodsDummy_Pods.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0fb6643ec3bab641^7442b03ec3bab641^---0#1#0#--18"Check dependencies36"FED95C18-AB19-47E2-B1FE-ECA720003101-
+
+CCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPClient.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381338431.829873
+e381338432.330467
+r1
+xCompileC
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPClient.o
+x/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPClient.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPClient.m0dc2d43fc3bab641^fdd85440c3bab641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPClient.m0000000000000000^4265"CompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPClient.o AFNetworking/AFNetworking/AFHTTPClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/include -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTDownload -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPClient.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPClient.dia -c /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPClient.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPClient.o36"4D27F741-D82F-4EBA-9AEF-D92BE9F7E899-
+
+CCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperation.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381338431.843986
+e381338432.063287
+r1
+xCompileC
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperation.o
+x/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m5f62d83fc3bab641^5e471040c3bab641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m0000000000000000^4325"CompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperation.o AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/include -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTDownload -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperation.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperation.dia -c /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFHTTPRequestOperation.o36"5B552621-0142-4A2F-9D09-571B80BEE932-
+
+CCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFImageRequestOperation.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381338431.829824
+e381338431.993029
+r1
+xCompileC
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFImageRequestOperation.o
+x/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.mcec4d43fc3bab641^5248fe3fc3bab641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.m0000000000000000^4331"CompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFImageRequestOperation.o AFNetworking/AFNetworking/AFImageRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/include -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTDownload -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFImageRequestOperation.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFImageRequestOperation.dia -c /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFImageRequestOperation.o36"09F69435-8B15-40E1-82C4-F5A6FE9C1536-
+
+CCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFJSONRequestOperation.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381338432.064650
+e381338432.187134
+r1
+xCompileC
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFJSONRequestOperation.o
+x/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m70e91040c3bab641^35263040c3bab641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m0000000000000000^4325"CompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFJSONRequestOperation.o AFNetworking/AFNetworking/AFJSONRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/include -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTDownload -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFJSONRequestOperation.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFJSONRequestOperation.dia -c /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFJSONRequestOperation.o36"B811AF71-2E32-481C-B6B8-1918E30B39A3-
+
+CCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFJSONUtilities.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONUtilities.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381338432.199290
+e381338432.306434
+r1
+xCompileC
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFJSONUtilities.o
+x/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONUtilities.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONUtilities.m20793340c3bab641^1b7f4e40c3bab641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONUtilities.m0000000000000000^4283"CompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFJSONUtilities.o AFNetworking/AFNetworking/AFJSONUtilities.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/include -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTDownload -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFJSONUtilities.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFJSONUtilities.dia -c /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONUtilities.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFJSONUtilities.o36"46908CDC-0190-407F-8161-FBE5EB075BDC-
+
+CCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381338432.199378
+e381338432.296862
+r1
+xCompileC
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o
+x/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.mf5633340c3bab641^b20d4c40c3bab641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m0000000000000000^4391"CompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/include -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTDownload -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.dia -c /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFNetworkActivityIndicatorManager.o36"600097D1-662D-4A56-8219-74927BF3ADCE-
+
+CCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFPropertyListRequestOperation.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381338432.226715
+e381338432.325455
+r1
+xCompileC
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFPropertyListRequestOperation.o
+x/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m62813b40c3bab641^18605340c3bab641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m0000000000000000^4373"CompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFPropertyListRequestOperation.o AFNetworking/AFNetworking/AFPropertyListRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/include -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTDownload -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFPropertyListRequestOperation.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFPropertyListRequestOperation.dia -c /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFPropertyListRequestOperation.o36"A885CDF0-D7FC-4077-8BCC-8BB7E42DC3D3-
+
+CCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFURLConnectionOperation.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381338432.307794
+e381338432.890822
+r1
+xCompileC
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFURLConnectionOperation.o
+x/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.mce174f40c3bab641^ee22e440c3bab641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m0000000000000000^4337"CompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFURLConnectionOperation.o AFNetworking/AFNetworking/AFURLConnectionOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/include -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTDownload -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFURLConnectionOperation.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFURLConnectionOperation.dia -c /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFURLConnectionOperation.o36"10D65800-C804-424F-82D6-3C8B8B2D5B8F-
+
+CCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFXMLRequestOperation.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381338432.324211
+e381338432.413234
+r1
+xCompileC
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFXMLRequestOperation.o
+x/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.mf2605340c3bab641^dbdb6940c3bab641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m0000000000000000^4319"CompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFXMLRequestOperation.o AFNetworking/AFNetworking/AFXMLRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/include -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTDownload -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFXMLRequestOperation.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFXMLRequestOperation.dia -c /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/AFXMLRequestOperation.o36"6285AE0D-8074-43B4-B5F6-D034C4D1C531-
+
+CCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/JSONKit.o /Users/haradashinya/project/WeeklyNews/Pods/JSONKit/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381338432.333450
+e381338433.658484
+r1
+xCompileC
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/JSONKit.o
+x/Users/haradashinya/project/WeeklyNews/Pods/JSONKit/JSONKit.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/haradashinya/project/WeeklyNews/Pods/JSONKit/JSONKit.m2bfc5540c3bab641^5512a941c3bab641^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/haradashinya/project/WeeklyNews/Pods/JSONKit/JSONKit.m0000000000000000^4242"CompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/JSONKit.o JSONKit/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/include -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTDownload -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator -Wno-deprecated-objc-isa-usage -Wno-format -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/JSONKit.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/JSONKit.dia -c /Users/haradashinya/project/WeeklyNews/Pods/JSONKit/JSONKit.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/JSONKit.o36"C20F388E-B134-4D3D-943C-6E6AD72C94B8-
+
+CCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/PodsDummy_Pods.o /Users/haradashinya/project/WeeklyNews/Pods/PodsDummy_Pods.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381338432.414651
+e381338432.458516
+r1
+xCompileC
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/PodsDummy_Pods.o
+x/Users/haradashinya/project/WeeklyNews/Pods/PodsDummy_Pods.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/haradashinya/project/WeeklyNews/Pods/PodsDummy_Pods.m97726a40c3bab641^486e7540c3bab641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/haradashinya/project/WeeklyNews/Pods/PodsDummy_Pods.m0000000000000000^4225"CompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/PodsDummy_Pods.o PodsDummy_Pods.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/include -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTDownload -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/PodsDummy_Pods.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/PodsDummy_Pods.dia -c /Users/haradashinya/project/WeeklyNews/Pods/PodsDummy_Pods.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/PodsDummy_Pods.o36"6A12E655-459A-43BF-8E52-D331161FD462-
+
+CCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/UIImageView+AFNetworking.o /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381338432.326713
+e381338432.598365
+r1
+xCompileC
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/UIImageView+AFNetworking.o
+x/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m06f35340c3bab641^d7689940c3bab641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m0000000000000000^4337"CompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/UIImageView+AFNetworking.o AFNetworking/AFNetworking/UIImageView+AFNetworking.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/include -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTDownload -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/UIImageView+AFNetworking.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/UIImageView+AFNetworking.dia -c /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/UIImageView+AFNetworking.o36"E18B6EE5-B65F-4207-A834-3C86A9E21B6B-
+
+CCpHeader AFNetworking/AFNetworking/AFHTTPClient.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFHTTPClient.h
+s381338433.836590
+e381338433.839868
+r1
+xCpHeader
+xAFNetworking/AFNetworking/AFHTTPClient.h
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFHTTPClient.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFHTTPClient.hb667d641c3bab641^a131d741c3bab641^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFHTTPClient.h000000000080d041^969"CpHeader AFNetworking/AFNetworking/AFHTTPClient.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFHTTPClient.h    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPClient.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods36"C72C1810-A2FB-4165-9DD0-236554DC3447-
+
+CCpHeader AFNetworking/AFNetworking/AFHTTPRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFHTTPRequestOperation.h
+s381338433.837346
+e381338433.841744
+r1
+xCpHeader
+xAFNetworking/AFNetworking/AFHTTPRequestOperation.h
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFHTTPRequestOperation.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Copy /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFHTTPRequestOperation.h1c9ad641c3bab641^5281d741c3bab641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFHTTPRequestOperation.h000000000080d041^999"CpHeader AFNetworking/AFNetworking/AFHTTPRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFHTTPRequestOperation.h    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods36"DB8E1B0C-4EBC-4C3F-B7C6-722200B225BB-
+
+CCpHeader AFNetworking/AFNetworking/AFImageRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFImageRequestOperation.h
+s381338433.841144
+e381338433.844248
+r1
+xCpHeader
+xAFNetworking/AFNetworking/AFImageRequestOperation.h
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFImageRequestOperation.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Copy /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFImageRequestOperation.he78dd741c3bab641^e620d841c3bab641^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFImageRequestOperation.h000000000080d041^1002"CpHeader AFNetworking/AFNetworking/AFImageRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFImageRequestOperation.h    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFImageRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods36"FF222AAB-02C2-4C55-B15D-33B5198020ED-
+
+CCpHeader AFNetworking/AFNetworking/AFJSONRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFJSONRequestOperation.h
+s381338433.843090
+e381338433.847036
+r1
+xCpHeader
+xAFNetworking/AFNetworking/AFJSONRequestOperation.h
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFJSONRequestOperation.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Copy /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFJSONRequestOperation.h9a0bd841c3bab641^6bd7d841c3bab641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFJSONRequestOperation.h000000000080d041^999"CpHeader AFNetworking/AFNetworking/AFJSONRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFJSONRequestOperation.h    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods36"9C6D8881-B81D-4AF3-8B36-C87A3C7856B9-
+
+CCpHeader AFNetworking/AFNetworking/AFJSONUtilities.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFJSONUtilities.h
+s381338433.843083
+e381338433.845847
+r1
+xCpHeader
+xAFNetworking/AFNetworking/AFJSONUtilities.h
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFJSONUtilities.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Copy /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFJSONUtilities.h740cd841c3bab641^a089d841c3bab641^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFJSONUtilities.h000000000080d041^978"CpHeader AFNetworking/AFNetworking/AFJSONUtilities.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFJSONUtilities.h    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFJSONUtilities.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods36"DCDE28F1-E126-4145-8C8E-F47B9FD6F42F-
+
+CCpHeader AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFNetworkActivityIndicatorManager.h
+s381338433.845424
+e381338433.848702
+r1
+xCpHeader
+xAFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFNetworkActivityIndicatorManager.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Copy /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFNetworkActivityIndicatorManager.hb9aad841c3bab641^7e52d941c3bab641^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFNetworkActivityIndicatorManager.h000000000080d041^1032"CpHeader AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFNetworkActivityIndicatorManager.h    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods36"BCCB0305-BD63-4FE1-BEAE-76FE765219B1-
+
+CCpHeader AFNetworking/AFNetworking/AFNetworking.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFNetworking.h
+s381338433.847173
+e381338433.850466
+r1
+xCpHeader
+xAFNetworking/AFNetworking/AFNetworking.h
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFNetworking.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFNetworking.hac19d941c3bab641^53d0d941c3bab641^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFNetworking.h000000000080d041^969"CpHeader AFNetworking/AFNetworking/AFNetworking.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFNetworking.h    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFNetworking.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods36"AC12673A-2789-44A0-9895-7F8FDDF0DCBA-
+
+CCpHeader AFNetworking/AFNetworking/AFPropertyListRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFPropertyListRequestOperation.h
+s381338433.848301
+e381338433.851667
+r1
+xCpHeader
+xAFNetworking/AFNetworking/AFPropertyListRequestOperation.h
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFPropertyListRequestOperation.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Copy /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFPropertyListRequestOperation.h6b62d941c3bab641^2e1eda41c3bab641^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFPropertyListRequestOperation.h000000000080d041^1023"CpHeader AFNetworking/AFNetworking/AFPropertyListRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFPropertyListRequestOperation.h    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFPropertyListRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods36"6C6350E8-AAEE-4878-BD9C-713A3D270286-
+
+CCpHeader AFNetworking/AFNetworking/AFURLConnectionOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFURLConnectionOperation.h
+s381338433.850021
+e381338433.853653
+r1
+xCpHeader
+xAFNetworking/AFNetworking/AFURLConnectionOperation.h
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFURLConnectionOperation.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Copy /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFURLConnectionOperation.h3cd9d941c3bab641^9791da41c3bab641^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFURLConnectionOperation.h000000000080d041^1005"CpHeader AFNetworking/AFNetworking/AFURLConnectionOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFURLConnectionOperation.h    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods36"7F216B78-1AFE-4553-86CF-B2602218B414-
+
+CCpHeader AFNetworking/AFNetworking/AFXMLRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFXMLRequestOperation.h
+s381338433.851915
+e381338433.856129
+r1
+xCpHeader
+xAFNetworking/AFNetworking/AFXMLRequestOperation.h
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFXMLRequestOperation.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Copy /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFXMLRequestOperation.h554fda41c3bab641^cb2fdb41c3bab641^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFXMLRequestOperation.h000000000080d041^996"CpHeader AFNetworking/AFNetworking/AFXMLRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/AFXMLRequestOperation.h    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/AFXMLRequestOperation.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods36"CB549946-D678-4791-809A-FD8CF2E58C62-
+
+CCpHeader AFNetworking/AFNetworking/UIImageView+AFNetworking.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/UIImageView+AFNetworking.h
+s381338433.851946
+e381338433.855164
+r1
+xCpHeader
+xAFNetworking/AFNetworking/UIImageView+AFNetworking.h
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/UIImageView+AFNetworking.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Copy /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/UIImageView+AFNetworking.h6e51da41c3bab641^e3fbda41c3bab641^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/UIImageView+AFNetworking.h000000000080d041^1005"CpHeader AFNetworking/AFNetworking/UIImageView+AFNetworking.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/UIImageView+AFNetworking.h    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/haradashinya/project/WeeklyNews/Pods/AFNetworking/AFNetworking/UIImageView+AFNetworking.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods36"BEF43A64-6A47-42AC-8A8A-AB1821F0FC32-
+
+CCpHeader JSONKit/JSONKit.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/JSONKit.h
+s381338433.854944
+e381338433.857882
+r1
+xCpHeader
+xJSONKit/JSONKit.h
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/JSONKit.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Copy /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/JSONKit.hb515db41c3bab641^9d9edb41c3bab641^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/JSONKit.h000000000080d041^918"CpHeader JSONKit/JSONKit.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods/JSONKit.h    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/haradashinya/project/WeeklyNews/Pods/JSONKit/JSONKit.h /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/Pods36"E90575EA-0648-490C-8717-13FC33A32322-
+
+CLibtool /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/libPods.a normal i386
+s381338433.722030
+e381338433.779430
+r1
+xLibtool
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/libPods.a
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Libtool /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/libPods.a normal i386a81eb941c3bab641^6cb1c741c3bab641^---0#0#0#--1330"Libtool /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/libPods.a normal i386    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator -filelist /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList -framework Foundation -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/libPods.a36"252934CE-CE3B-4C5D-A976-1D54F02EB19C-
+
+CProcessPCH /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch.pth Pods-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381338430.698741
+e381338431.822875
+r1
+xProcessPCH
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch.pth
+xPods-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Precompile Pods-prefix.pchd331b33ec3bab641^f0a7d23fc3bab641^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/haradashinya/project/WeeklyNews/Pods/Pods-prefix.pch0000000000000000^4057"ProcessPCH /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch.pth Pods-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/include -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTDownload -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch.dia -c /Users/haradashinya/project/WeeklyNews/Pods/Pods-prefix.pch -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch.pth -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/Pods-prefix-grftsvamhvgmvgbfkagzyvdwktzu/Pods-prefix.pch.d36"2AE85F64-C682-469B-B4CD-8DCDC89C78AA-
+
+CProcessPCH /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Index/PrecompiledHeaders/Pods-prefix-gvhybvoreqokzzfylxllgvykhikj_ast/Pods-prefix.pch.pth Pods-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

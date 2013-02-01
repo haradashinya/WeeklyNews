@@ -1,0 +1,98 @@
+TDTHTMLParser
+v5
+r1
+cCheck dependencies
+cProcessPCH /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/DTFoundation-Prefix-bammeqqcxqzxauftvxjjlmhdxofy/DTFoundation-Prefix.pch.pth Core/DTFoundation-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/Objects-normal/i386/DTHTMLParser.o /Users/haradashinya/project/WeeklyNews/Externals/DTCoreText/Core/Externals/DTFoundation/Core/Source/DTHTMLParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/libDTHTMLParser.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000504916AD0000000000000110
+t1346967213
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050B7666A00000000003DCEF0
+t1354196586
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/lib/libxml2.dylib
+c0000000050B766820000000000128820
+t1354196610
+s1214496
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/Objects-normal/i386/DTHTMLParser.LinkFileList
+c00000000510A8BBE00000000000000B1
+t1359645630
+s177
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/Objects-normal/i386/DTHTMLParser.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/DTFoundation-Prefix-bammeqqcxqzxauftvxjjlmhdxofy/DTFoundation-Prefix.pch.pth
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/libDTHTMLParser.a
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/Externals/DTCoreText/Core/Externals/DTFoundation/Core/DTFoundation-Prefix.pch
+c00000000510A8A1C0000000000000182
+t1359645212
+s386
+
+N/Users/haradashinya/project/WeeklyNews/Externals/DTCoreText/Core/Externals/DTFoundation/Core/Source/DTHTMLParser.m
+c00000000510A8A1C00000000000022AC
+t1359645212
+s8876
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/Externals/DTCoreText/Core/Externals/DTFoundation/Core/Source/DTHTMLParser.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb856633ec3bab641^d55e843ec3bab641^---0#1#0#--18"Check dependencies36"83B460E6-87A6-488E-A74E-3AE9D4247814-
+
+CCompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/Objects-normal/i386/DTHTMLParser.o /Users/haradashinya/project/WeeklyNews/Externals/DTCoreText/Core/Externals/DTFoundation/Core/Source/DTHTMLParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381338431.994529
+e381338432.224781
+r1
+xCompileC
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/Objects-normal/i386/DTHTMLParser.o
+x/Users/haradashinya/project/WeeklyNews/Externals/DTCoreText/Core/Externals/DTFoundation/Core/Source/DTHTMLParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/haradashinya/project/WeeklyNews/Externals/DTCoreText/Core/Externals/DTFoundation/Core/Source/DTHTMLParser.m8df0fe3fc3bab641^ac8d3940c3bab641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/haradashinya/project/WeeklyNews/Externals/DTCoreText/Core/Externals/DTFoundation/Core/Source/DTHTMLParser.m0000000000000000^4352"CompileC /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/Objects-normal/i386/DTHTMLParser.o Core/Source/DTHTMLParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews/Externals/DTCoreText/Core/Externals/DTFoundation    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.2 -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/DTHTMLParser-generated-files.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/DTHTMLParser-own-target-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/DTHTMLParser-all-target-headers.hmap -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/DTHTMLParser-project-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/libxml2 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/DerivedSources/i386 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/DTFoundation-Prefix-bammeqqcxqzxauftvxjjlmhdxofy/DTFoundation-Prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/Objects-normal/i386/DTHTMLParser.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/Objects-normal/i386/DTHTMLParser.dia -c /Users/haradashinya/project/WeeklyNews/Externals/DTCoreText/Core/Externals/DTFoundation/Core/Source/DTHTMLParser.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/Objects-normal/i386/DTHTMLParser.o36"5F45E4E0-A48C-4DF2-95D0-655369038A94-
+
+CLibtool /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/libDTHTMLParser.a normal i386
+s381338432.298191
+e381338432.322741
+r1
+xLibtool
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/libDTHTMLParser.a
+xnormal
+xi386
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/lib/libxml2.dylib is a dynamic library, not added to the static library
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Libtool /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/libDTHTMLParser.a normal i3860b984c40c3bab641^e1b25240c3bab641^-453"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/lib/libxml2.dylib is a dynamic library, not added to the static library-0#0#0#--1558"Libtool /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/libDTHTMLParser.a normal i386    cd /Users/haradashinya/project/WeeklyNews/Externals/DTCoreText/Core/Externals/DTFoundation    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator -filelist /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/Objects-normal/i386/DTHTMLParser.LinkFileList -ObjC /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/lib/libxml2.dylib -framework Foundation -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/libDTHTMLParser.a36"2F290A7B-D455-45D4-A348-69D4F70753A5-
+
+CProcessPCH /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/DTFoundation-Prefix-bammeqqcxqzxauftvxjjlmhdxofy/DTFoundation-Prefix.pch.pth Core/DTFoundation-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381338430.550650
+e381338431.842551
+r1
+xProcessPCH
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/DTFoundation-Prefix-bammeqqcxqzxauftvxjjlmhdxofy/DTFoundation-Prefix.pch.pth
+xCore/DTFoundation-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Core/DTFoundation-Prefix.pchbf478d3ec3bab641^3ab1d73fc3bab641^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/haradashinya/project/WeeklyNews/Externals/DTCoreText/Core/Externals/DTFoundation/Core/DTFoundation-Prefix.pch0000000000000000^4182"ProcessPCH /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/DTFoundation-Prefix-bammeqqcxqzxauftvxjjlmhdxofy/DTFoundation-Prefix.pch.pth Core/DTFoundation-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews/Externals/DTCoreText/Core/Externals/DTFoundation    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/rvm/gems/ruby-1.9.3-p194/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:/usr/local/rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.2 -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/DTHTMLParser-generated-files.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/DTHTMLParser-own-target-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/DTHTMLParser-all-target-headers.hmap -iquote /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/DTHTMLParser-project-headers.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/libxml2 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/DerivedSources/i386 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/DTFoundation.build/Debug-iphonesimulator/DTHTMLParser.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/DTFoundation-Prefix-bammeqqcxqzxauftvxjjlmhdxofy/DTFoundation-Prefix.pch.dia -c /Users/haradashinya/project/WeeklyNews/Externals/DTCoreText/Core/Externals/DTFoundation/Core/DTFoundation-Prefix.pch -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/DTFoundation-Prefix-bammeqqcxqzxauftvxjjlmhdxofy/DTFoundation-Prefix.pch.pth -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/DTFoundation-Prefix-bammeqqcxqzxauftvxjjlmhdxofy/DTFoundation-Prefix.pch.d36"06477019-E3C3-473A-91AD-468065BA77A2-
+
+CProcessPCH /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Index/PrecompiledHeaders/DTFoundation-Prefix-cwonnoryolqdttbjvxonavfevwxu_ast/DTFoundation-Prefix.pch.pth Core/DTFoundation-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
