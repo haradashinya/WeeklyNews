@@ -106,18 +106,29 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] ;
         cell.textLabel.numberOfLines = 5;
+        // もしもインサートされてたら消す。deleteを表示する。
+        
+        [cell setSelectionStyle:UITableViewCellStyleValue2];
+        [cell setBackgroundColor:[UIColor redColor]];
+        [cell setAccessoryType:UITableViewCellEditingStyleInsert];
+        UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
+        [btn addTarget:self action:@selector(onPlus:) forControlEvents:UIControlEventTouchUpInside];
+        [btn setBackgroundImage:[UIImage imageNamed:@"plus.png"] forState:UIControlStateNormal];
+        cell.accessoryView = btn;
+
     }
     @try {
         if (newsModel.items){
             cell.textLabel.text = [[newsModel.items objectAtIndex:indexPath.row] objectForKey:@"content"];
+            
             // タイトルを表示する.
-
+            
+            
         }
     }
     @catch (NSException * e) {
         [cell.textLabel setText:@""];
     }
-    [cell setSelectionStyle:UITableViewCellStyleValue2];
     // Configure the cell.
     
     return cell;
@@ -135,11 +146,20 @@
         DetailViewController *dvc = [[DetailViewController alloc] init];
         [self.navigationController pushViewController:dvc animated:NO];
 
+
     }
     // if tapped Load More Btn;
     @catch (NSException * e) {
         NSLog(@"Footer selected");
     }
+}
+-(void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"tapped");
+}
+-(void)onPlus:(id)sender
+{
+    NSLog(@"sender is %@",sender);
 }
 
 
