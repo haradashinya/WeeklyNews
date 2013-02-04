@@ -113,7 +113,7 @@
         [cell setAccessoryType:UITableViewCellEditingStyleInsert];
         UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
         [btn addTarget:self action:@selector(onPlus:) forControlEvents:UIControlEventTouchUpInside];
-        [btn setBackgroundImage:[UIImage imageNamed:@"plus.png"] forState:UIControlStateNormal];
+        [btn setBackgroundImage:[UIImage imageNamed:@"minus.png"] forState:UIControlStateNormal];
         cell.accessoryView = btn;
 
     }
@@ -162,6 +162,10 @@
     NSLog(@"sender is %@",sender);
 }
 
+-(void)onDelete:(id)sender
+{
+    NSLog(@"requested deleting");
+}
 
 
 @end

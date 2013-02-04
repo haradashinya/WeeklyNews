@@ -27,6 +27,8 @@
 		06D968D716B814E700CFC56B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D968D616B814E700CFC56B /* DetailViewController.m */; };
 		06EA157D16BFF4940018F0BD /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 06EA157B16BFF4940018F0BD /* plus.png */; };
 		06EA157E16BFF4940018F0BD /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06EA157C16BFF4940018F0BD /* plus@2x.png */; };
+		06EA158116BFFA240018F0BD /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 06EA157F16BFFA240018F0BD /* minus.png */; };
+		06EA158216BFFA240018F0BD /* minus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06EA158016BFFA240018F0BD /* minus@2x.png */; };
 		87DC28FCA8F34AB39D76362C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0560089234514A80BD810BE1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +72,8 @@
 		06D968D616B814E700CFC56B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		06EA157B16BFF4940018F0BD /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 		06EA157C16BFF4940018F0BD /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
+		06EA157F16BFFA240018F0BD /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
+		06EA158016BFFA240018F0BD /* minus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus@2x.png"; sourceTree = "<group>"; };
 		3E01ECD67F804691B4558771 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -184,6 +188,8 @@
 		06EA157916BFF47F0018F0BD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				06EA157F16BFFA240018F0BD /* minus.png */,
+				06EA158016BFFA240018F0BD /* minus@2x.png */,
 				06EA157B16BFF4940018F0BD /* plus.png */,
 				06EA157C16BFF4940018F0BD /* plus@2x.png */,
 			);
@@ -270,6 +276,8 @@
 				06D2DC5E169EFF11003158D7 /* MainStoryboard.storyboard in Resources */,
 				06EA157D16BFF4940018F0BD /* plus.png in Resources */,
 				06EA157E16BFF4940018F0BD /* plus@2x.png in Resources */,
+				06EA158116BFFA240018F0BD /* minus.png in Resources */,
+				06EA158216BFFA240018F0BD /* minus@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
