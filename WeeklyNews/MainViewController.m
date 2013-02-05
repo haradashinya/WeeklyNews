@@ -144,7 +144,13 @@
             int rowNum = [newsModel.items indexOfObject:data];
             btn.tag = rowNum;
             [btn addTarget:self action:@selector(onPlus:) forControlEvents:UIControlEventTouchUpInside];
-            [btn setBackgroundImage:[UIImage imageNamed:@"plus.png"] forState:UIControlStateNormal];
+            if ([self hasContainedDataInBookmarkedArray:data]){
+                [btn setBackgroundImage:[UIImage imageNamed:@"minus.png"] forState:UIControlStateNormal];
+            }else{
+                
+                [btn setBackgroundImage:[UIImage imageNamed:@"plus.png"] forState:UIControlStateNormal];
+                
+            }
             cell.accessoryView = btn;
             
             
@@ -156,6 +162,21 @@
     // Configure the cell.
     
     return cell;
+}
+// if news Item already exist in bookmarked data , then return YES.
+-(Boolean )hasContainedDataInBookmarkedArray:(NSDictionary *)data
+{
+    if ([bookmarkedArray count] == 0) return NO;
+    
+    for(int i = 0; i < [bookmarkedArray count];i++){
+        NSDictionary *bData = [bookmarkedArray objectAtIndex:i];
+        // check alraedy exist.
+        if ([data isEqual:bData]){
+            return YES;
+        }
+    }
+    return NO;
+    
 }
 
 #pragma mark -
