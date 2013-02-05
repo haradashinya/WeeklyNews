@@ -14,5 +14,7 @@
 @interface MainViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic,strong) NSMutableArray *dataArray;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *starButton;
+- (IBAction)onTappedStarButton:(id)sender;
 
 @end

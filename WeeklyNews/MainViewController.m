@@ -17,12 +17,27 @@
     NSMutableArray *newsTitles;
     NSMutableArray *newDataArray;
     NewsModel *newsModel;
+    NSUserDefaults *ud;
+    // bookmarked news data.
+    NSMutableArray *bookmarkedArray;
     // currentRowofindex;
     int currentRow;
+    // 一回loadMoreCellが呼ばれるたびに、rowのリセットが発生するので、そのたびにcurMulを位置増やして5かける.
 }
 
+-(void)setUpUserDefaults
+{
+    
+    ud = [NSUserDefaults standardUserDefaults];
+    if (![ud objectForKey:@"bookmarkedArray"]){
+        [ud setObject:[[NSMutableArray alloc] init] forKey:@"bookmarkedArray"];
+    }
+    
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setUpUserDefaults];
+    
     // 最初に表示するCell
     self.dataArray = [[NSMutableArray alloc] init];
     for (int i = 0 ; i < 10;i++){
@@ -110,18 +125,19 @@
         
         [cell setSelectionStyle:UITableViewCellStyleValue2];
         [cell setBackgroundColor:[UIColor redColor]];
-        [cell setAccessoryType:UITableViewCellEditingStyleInsert];
-        UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
-        [btn addTarget:self action:@selector(onPlus:) forControlEvents:UIControlEventTouchUpInside];
-        [btn setBackgroundImage:[UIImage imageNamed:@"minus.png"] forState:UIControlStateNormal];
-        cell.accessoryView = btn;
 
     }
     @try {
         if (newsModel.items){
+            NSDictionary *data = [newsModel.items objectAtIndex:indexPath.row];
             cell.textLabel.text = [[newsModel.items objectAtIndex:indexPath.row] objectForKey:@"content"];
             
-            // タイトルを表示する.
+            UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
+            int rowNum = [newsModel.items indexOfObject:data];
+            btn.tag = rowNum;
+            [btn addTarget:self action:@selector(onPlus:) forControlEvents:UIControlEventTouchUpInside];
+            [btn setBackgroundImage:[UIImage imageNamed:@"plus.png"] forState:UIControlStateNormal];
+            cell.accessoryView = btn;
             
             
         }
@@ -159,7 +175,10 @@
 }
 -(void)onPlus:(id)sender
 {
-    NSLog(@"sender is %@",sender);
+    UIButton *btn = (UIButton *)sender;
+    
+//    NSLog(@"currentTitle is %@",[newsModel.items objectAtIndex:inde]);
+    NSLog(@"sender is %i",btn.tag);
 }
 
 -(void)onDelete:(id)sender
@@ -168,4 +187,7 @@
 }
 
 
+
+- (IBAction)onTappedStarButton:(id)sender {
+}
 @end
