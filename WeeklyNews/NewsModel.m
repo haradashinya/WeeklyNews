@@ -45,6 +45,7 @@ static NewsModel *newsModel;
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, NSString  *JSON) {
         
         for (NSDictionary *obj in [JSON valueForKey:@"data"]){
+            NSLog(@"obj is %@",obj);
             
 //            NSString* html = @"<html><body>Simple HTML</body></html>";
 

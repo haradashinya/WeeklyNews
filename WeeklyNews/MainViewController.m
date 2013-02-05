@@ -29,9 +29,17 @@
 {
     
     ud = [NSUserDefaults standardUserDefaults];
-    if (![ud objectForKey:@"bookmarkedArray"]){
-        [ud setObject:[[NSMutableArray alloc] init] forKey:@"bookmarkedArray"];
+    if (![[ud objectForKey:@"bookmarkedArray"] respondsToSelector:@selector(count)] ){
+        NSLog(@"set up ud");
+        bookmarkedArray = [[NSMutableArray alloc ] init];
+        [ud setObject:bookmarkedArray  forKey:@"bookmarkedArray"];
+    }else{
+        
+        NSLog(@"ud is %i",[[ud objectForKey:@"bookmarkedArray"] count]);
+        bookmarkedArray = [ud objectForKey:@"bookmarkedArray"];
+        
     }
+    [ud synchronize];
     
 }
 - (void)viewDidLoad {
@@ -176,9 +184,20 @@
 -(void)onPlus:(id)sender
 {
     UIButton *btn = (UIButton *)sender;
+    NSDictionary *data = [newsModel.items objectAtIndex:btn.tag];
     
-//    NSLog(@"currentTitle is %@",[newsModel.items objectAtIndex:inde]);
-    NSLog(@"sender is %i",btn.tag);
+    [bookmarkedArray addObject:data];
+    NSLog(@"data is %@",data);
+    
+    NSLog(@"bookmarkedArray is %@",bookmarkedArray);
+    
+    
+    [ud setObject:bookmarkedArray forKey:@"bookmarkedArray"];
+//
+//    // save to ud;
+    [ud synchronize];
+    NSLog(@"ud is %@",[ud objectForKey:@"bookmarkedArray"]);
+    
 }
 
 -(void)onDelete:(id)sender
