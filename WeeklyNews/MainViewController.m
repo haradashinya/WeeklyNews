@@ -143,12 +143,14 @@
             UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
             int rowNum = [newsModel.items indexOfObject:data];
             btn.tag = rowNum;
-            [btn addTarget:self action:@selector(onPlus:) forControlEvents:UIControlEventTouchUpInside];
+            [btn addTarget:self action:@selector(onToggle:) forControlEvents:UIControlEventTouchUpInside];
             if ([self hasContainedDataInBookmarkedArray:data]){
                 [btn setBackgroundImage:[UIImage imageNamed:@"minus.png"] forState:UIControlStateNormal];
+                btn.titleLabel.text = @"minus";
             }else{
                 
                 [btn setBackgroundImage:[UIImage imageNamed:@"plus.png"] forState:UIControlStateNormal];
+                btn.titleLabel.text = @"plus";
                 
             }
             cell.accessoryView = btn;
@@ -202,29 +204,35 @@
 {
     NSLog(@"tapped");
 }
--(void)onPlus:(id)sender
+
+-(void)onToggle:(id)sender
 {
     UIButton *btn = (UIButton *)sender;
+    NSString *t = btn.titleLabel.text;
     NSDictionary *data = [newsModel.items objectAtIndex:btn.tag];
     
-    [bookmarkedArray addObject:data];
-    NSLog(@"data is %@",data);
-    
-    NSLog(@"bookmarkedArray is %@",bookmarkedArray);
-    
+    if ([t isEqual:@"plus"]){
+        NSLog(@"called insert");
+        //insert
+        [bookmarkedArray addObject:data];
+        [btn setBackgroundImage:[UIImage imageNamed:@"minus.png"] forState:UIControlStateNormal];
+        btn.titleLabel.text = @"minus";
+    }else{
+        //delete
+        
+        NSLog(@"called delete");
+        [bookmarkedArray removeObject:data];
+        [btn setBackgroundImage:[UIImage imageNamed:@"plus.png"] forState:UIControlStateNormal];
+        btn.titleLabel.text = @"plus";
+    }
     
     [ud setObject:bookmarkedArray forKey:@"bookmarkedArray"];
-//
-//    // save to ud;
+    
     [ud synchronize];
-    NSLog(@"ud is %@",[ud objectForKey:@"bookmarkedArray"]);
+    NSLog(@"ud is %i",[[ud objectForKey:@"bookmarkedArray"] count]);
     
 }
 
--(void)onDelete:(id)sender
-{
-    NSLog(@"requested deleting");
-}
 
 
 
