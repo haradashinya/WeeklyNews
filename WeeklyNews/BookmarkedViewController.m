@@ -63,9 +63,7 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 1;
+    return 1 ;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -87,13 +85,33 @@
     
     
     if (cell == nil) {
+        NSDictionary *data = [bookmarkedArray objectAtIndex:indexPath.row];
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell.textLabel.numberOfLines = 5;
+        
+        
+        
         cell.textLabel.text = titleStr;
+        [cell setSelectionStyle:UITableViewCellStyleValue2];
+        [cell setBackgroundColor:[UIColor redColor]];
+        
+        UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
+        int rowNum = [bookmarkedArray indexOfObject:data];
+        btn.tag = rowNum;
+//        [btn addTarget:self action:@selector(onToggle:) forControlEvents:UIControlEventTouchUpInside];
+        [btn setBackgroundImage:[UIImage imageNamed:@"minus.png"] forState:UIControlStateNormal];
+        btn.titleLabel.text = @"minus";
+        cell.accessoryView = btn;
+        
     }
     
     return cell;
 }
 
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath  *)indexPath{
+    return 90.0;
+}
 
 
 
