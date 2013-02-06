@@ -45,14 +45,25 @@
             </objects>
             <point key="canvasLocation" x="338" y="-52"/>
         </scene>
-        <!--Book Mark View Controller-->
+        <!--Bookmarked View Controller-->
         <scene sceneID="SqZ-3i-3iK">
             <objects>
-                <tableViewController id="76v-A3-qZZ" customClass="BookMarkViewController" sceneMemberID="viewController">
+                <tableViewController id="76v-A3-qZZ" customClass="BookmarkedViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="AhH-7P-zy3">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" restorationIdentifier="Cell" selectionStyle="blue" indentationWidth="10" id="fFE-10-1w6">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="76v-A3-qZZ" id="AqM-Bx-wRX"/>
                             <outlet property="delegate" destination="76v-A3-qZZ" id="ORn-yw-1ha"/>
@@ -84,6 +95,9 @@
         </scene>
     </scenes>
     <classes>
+        <class className="BookmarkedViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BookmarkedViewController.h"/>
+        </class>
         <class className="MainViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
             <relationships>
