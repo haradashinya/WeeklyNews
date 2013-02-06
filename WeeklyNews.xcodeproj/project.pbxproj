@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		064B10F116A04D45008FB4C9 /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 064B10F016A04D45008FB4C9 /* NewsModel.m */; };
+		068998CB16C2950100A83DC5 /* BookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068998CA16C2950100A83DC5 /* BookmarkViewController.m */; };
 		06D2DC45169EFF11003158D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D2DC44169EFF10003158D7 /* UIKit.framework */; };
 		06D2DC47169EFF11003158D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D2DC46169EFF11003158D7 /* Foundation.framework */; };
 		06D2DC49169EFF11003158D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D2DC48169EFF11003158D7 /* CoreGraphics.framework */; };
@@ -46,6 +47,8 @@
 		0560089234514A80BD810BE1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		064B10EF16A04D45008FB4C9 /* NewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsModel.h; sourceTree = "<group>"; };
 		064B10F016A04D45008FB4C9 /* NewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsModel.m; sourceTree = "<group>"; };
+		068998C916C2950100A83DC5 /* BookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkViewController.h; sourceTree = "<group>"; };
+		068998CA16C2950100A83DC5 /* BookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkViewController.m; sourceTree = "<group>"; };
 		06D2DC40169EFF10003158D7 /* WeeklyNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeeklyNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D2DC44169EFF10003158D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		06D2DC46169EFF11003158D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,6 +146,8 @@
 				06D2DC53169EFF11003158D7 /* MainAppDelegate.h */,
 				06D2DC54169EFF11003158D7 /* MainAppDelegate.m */,
 				06D2DC5C169EFF11003158D7 /* MainStoryboard.storyboard */,
+				068998C916C2950100A83DC5 /* BookmarkViewController.h */,
+				068998CA16C2950100A83DC5 /* BookmarkViewController.m */,
 				06D2DC5F169EFF11003158D7 /* MainViewController.h */,
 				06D2DC60169EFF11003158D7 /* MainViewController.m */,
 				06D2DC4B169EFF11003158D7 /* Supporting Files */,
@@ -331,6 +336,7 @@
 				06D2DC61169EFF11003158D7 /* MainViewController.m in Sources */,
 				064B10F116A04D45008FB4C9 /* NewsModel.m in Sources */,
 				06D968D716B814E700CFC56B /* DetailViewController.m in Sources */,
+				068998CB16C2950100A83DC5 /* BookmarkViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
