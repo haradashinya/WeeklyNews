@@ -226,10 +226,6 @@
         btn.titleLabel.text = @"plus";
     }
     
-    [ud setObject:bookmarkedArray forKey:@"bookmarkedArray"];
-    
-    [ud synchronize];
-    NSLog(@"ud is %i",[[ud objectForKey:@"bookmarkedArray"] count]);
     
 }
 

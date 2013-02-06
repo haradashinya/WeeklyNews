@@ -35,9 +35,6 @@
 //    NSArray* reversedArray = [[startArray reverseObjectEnumerator] allObjects];
 
     bookmarkedArray = [[[[ud objectForKey:@"bookmarkedArray"] reverseObjectEnumerator] allObjects] mutableCopy];
-//    NSArray* reversedArray = [[startArray reverseObjectEnumerator] allObjects];
-
-    NSLog(@"bookmark e is %@",bookmarkedArray);
     
 }
 
@@ -117,8 +114,18 @@
 -(void)onToggle:(id)sender
 {
     UIButton *btn = (UIButton *)sender;
+    NSLog(@"btn.tag is %i",btn.tag);
     NSDictionary *dic = [bookmarkedArray objectAtIndex:btn.tag];
-    NSLog(@"dic is %@",dic);
+    [bookmarkedArray removeObject:dic];
+    // 一番最初にリバースした奴なので、もう一回リバースしてもとに戻す。
+    [ud setObject:bookmarkedArray forKey:@"bookmarkedArray"];
+    
+    [ud synchronize];
+    // delete current row;
+    
+    [self.tableView reloadData];
+    
+    
 }
 
 #pragma mark - Table view delegate
