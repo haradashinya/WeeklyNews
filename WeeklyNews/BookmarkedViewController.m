@@ -15,7 +15,7 @@
 @implementation BookmarkedViewController
 {
     NSUserDefaults *ud;
-    NSArray *bookmarkedArray;
+    NSMutableArray *bookmarkedArray;
 
 }
 
@@ -34,7 +34,7 @@
     
 //    NSArray* reversedArray = [[startArray reverseObjectEnumerator] allObjects];
 
-    bookmarkedArray = [[[ud objectForKey:@"bookmarkedArray"] reverseObjectEnumerator] allObjects] ;
+    bookmarkedArray = [[[[ud objectForKey:@"bookmarkedArray"] reverseObjectEnumerator] allObjects] mutableCopy];
 //    NSArray* reversedArray = [[startArray reverseObjectEnumerator] allObjects];
 
     NSLog(@"bookmark e is %@",bookmarkedArray);
@@ -98,7 +98,7 @@
         UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
         int rowNum = [bookmarkedArray indexOfObject:data];
         btn.tag = rowNum;
-//        [btn addTarget:self action:@selector(onToggle:) forControlEvents:UIControlEventTouchUpInside];
+        [btn addTarget:self action:@selector(onToggle:) forControlEvents:UIControlEventTouchUpInside];
         [btn setBackgroundImage:[UIImage imageNamed:@"minus.png"] forState:UIControlStateNormal];
         btn.titleLabel.text = @"minus";
         cell.accessoryView = btn;
@@ -114,11 +114,19 @@
 }
 
 
+-(void)onToggle:(id)sender
+{
+    UIButton *btn = (UIButton *)sender;
+    NSDictionary *dic = [bookmarkedArray objectAtIndex:btn.tag];
+    NSLog(@"dic is %@",dic);
+}
 
 #pragma mark - Table view delegate
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+//    NSLog(@"dic is %@",[dic objectForKey:@"content"]);
 }
 
 @end
