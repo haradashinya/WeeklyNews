@@ -40,7 +40,6 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"called ddd");
     
     
     [self setUpUserDefaults];
@@ -67,6 +66,11 @@
 {
     [super viewWillAppear:NO];
     
+}
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:NO];
+    [self.tableView reloadData];
 }
 
 -(void)receivedNews
@@ -143,10 +147,12 @@
         if (newsModel.items){
             NSDictionary *data = [newsModel.items objectAtIndex:indexPath.row];
             cell.textLabel.text = [[newsModel.items objectAtIndex:indexPath.row] objectForKey:@"content"];
+            NSLog(@"callflflflflfflflfllfl");
             
             UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
             int rowNum = [newsModel.items indexOfObject:data];
             btn.tag = rowNum;
+            
             [btn addTarget:self action:@selector(onToggle:) forControlEvents:UIControlEventTouchUpInside];
             if ([self hasContainedDataInBookmarkedArray:data]){
                 [btn setBackgroundImage:[UIImage imageNamed:@"minus.png"] forState:UIControlStateNormal];

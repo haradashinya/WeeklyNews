@@ -18,6 +18,7 @@
 @property (nonatomic,strong) NSMutableArray *items;
 @property (nonatomic,strong) NSString *currentHref;
 @property (nonatomic,assign) int currentNumber;
+@property (nonatomic,strong) NSMutableArray *bookmarkedArray;
 +(id)shared;
 -(void)fetchNews;
 -(void)fetchLatestNumber;

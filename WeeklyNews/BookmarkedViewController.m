@@ -131,6 +131,7 @@
         [bookmarkedArray removeObject:dic];
         // 一番最初にリバースした奴なので、もう一回リバースしてもとに戻す。
         [ud setObject:bookmarkedArray forKey:@"bookmarkedArray"];
+        [ud synchronize];
         // 削除処理
 		// 該当するデータを削除する
 		
