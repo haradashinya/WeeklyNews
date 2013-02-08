@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0640AEE316C5B90900604839 /* iPhoneRetina_Glossy_Icon_title_proj.png in Resources */ = {isa = PBXBuildFile; fileRef = 0640AEE216C5B90900604839 /* iPhoneRetina_Glossy_Icon_title_proj.png */; };
+		0640AEE616C5B90C00604839 /* iPhone_Glossy_Icon_title_proj.png in Resources */ = {isa = PBXBuildFile; fileRef = 0640AEE516C5B90C00604839 /* iPhone_Glossy_Icon_title_proj.png */; };
 		0649E0E016C5A25000AF47C2 /* minus@2x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 0649E0DF16C5A25000AF47C2 /* minus@2x copy.png */; };
 		0649E0E216C5A42E00AF47C2 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 0649E0E116C5A42E00AF47C2 /* plus.png */; };
 		0649E0E416C5A43400AF47C2 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0649E0E316C5A43400AF47C2 /* plus@2x.png */; };
@@ -46,6 +48,8 @@
 
 /* Begin PBXFileReference section */
 		0560089234514A80BD810BE1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0640AEE216C5B90900604839 /* iPhoneRetina_Glossy_Icon_title_proj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneRetina_Glossy_Icon_title_proj.png; sourceTree = "<group>"; };
+		0640AEE516C5B90C00604839 /* iPhone_Glossy_Icon_title_proj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_Glossy_Icon_title_proj.png; sourceTree = "<group>"; };
 		0649E0DF16C5A25000AF47C2 /* minus@2x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus@2x copy.png"; sourceTree = "<group>"; };
 		0649E0E116C5A42E00AF47C2 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 		0649E0E316C5A43400AF47C2 /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 		06D2DC35169EFF10003158D7 = {
 			isa = PBXGroup;
 			children = (
+				0640AEE516C5B90C00604839 /* iPhone_Glossy_Icon_title_proj.png */,
+				0640AEE216C5B90900604839 /* iPhoneRetina_Glossy_Icon_title_proj.png */,
 				06EA157916BFF47F0018F0BD /* Resources */,
 				06D968D516B814E700CFC56B /* DetailViewController.h */,
 				06D968D616B814E700CFC56B /* DetailViewController.m */,
@@ -288,6 +294,8 @@
 				0649E0E016C5A25000AF47C2 /* minus@2x copy.png in Resources */,
 				0649E0E216C5A42E00AF47C2 /* plus.png in Resources */,
 				0649E0E416C5A43400AF47C2 /* plus@2x.png in Resources */,
+				0640AEE316C5B90900604839 /* iPhoneRetina_Glossy_Icon_title_proj.png in Resources */,
+				0640AEE616C5B90C00604839 /* iPhone_Glossy_Icon_title_proj.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

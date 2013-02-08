@@ -1,0 +1,633 @@
+TWeeklyNews
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Info.plist WeeklyNews/WeeklyNews-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/ResourceRules.plist
+cProcessPCH /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/WeeklyNews-Prefix-fwmdifulukjrfyfautbrqowskvsa/WeeklyNews-Prefix.pch.pth WeeklyNews/WeeklyNews-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/main.o /Users/haradashinya/project/WeeklyNews/WeeklyNews/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/MainViewController.o /Users/haradashinya/project/WeeklyNews/WeeklyNews/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/MainAppDelegate.o /Users/haradashinya/project/WeeklyNews/WeeklyNews/MainAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/NewsModel.o /Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/DetailViewController.o /Users/haradashinya/project/WeeklyNews/DetailViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/BookmarkedViewController.o /Users/haradashinya/project/WeeklyNews/WeeklyNews/BookmarkedViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/GradView.o /Users/haradashinya/project/WeeklyNews/GradView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/WeeklyNews normal armv7
+cGenerateDSYMFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app.dSYM /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/WeeklyNews
+cCopyPNGFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default.png WeeklyNews/Default.png
+cCopyStringsFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/en.lproj/InfoPlist.strings WeeklyNews/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default@2x.png WeeklyNews/Default@2x.png
+cCopyPNGFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default-568h@2x.png WeeklyNews/Default-568h@2x.png
+cCompileStoryboard /Users/haradashinya/project/WeeklyNews/WeeklyNews/en.lproj/MainStoryboard.storyboard
+cCopyPNGFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/minus.png minus.png
+cCopyPNGFile "/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/minus@2x copy.png" "minus@2x copy.png"
+cCopyPNGFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/plus.png plus.png
+cCopyPNGFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/plus@2x.png plus@2x.png
+cCopyPNGFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/iPhoneRetina_Glossy_Icon_title_proj.png iPhoneRetina_Glossy_Icon_title_proj.png
+cCopyPNGFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/iPhone_Glossy_Icon_title_proj.png iPhone_Glossy_Icon_title_proj.png
+cPhaseScriptExecution "Copy Pods Resources" /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Script-10D6D5B2B3C54359836AEBC6.sh
+cProcessProductPackaging "/Users/haradashinya/Library/MobileDevice/Provisioning Profiles/6233AC32-DBA5-4D9F-8523-C767FAB3C255.mobileprovision" /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/haradashinya/Library/MobileDevice/Provisioning Profiles/6233AC32-DBA5-4D9F-8523-C767FAB3C255.mobileprovision" /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/embedded.mobileprovision
+cTouch /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.xcent
+cCodeSign /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c00000000503C83D40000000000000132
+t1346143188
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c0000000050B766450000000000000094
+t1354196549
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c0000000050B766450000000000000096
+t1354196549
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050B766480000000000322740
+t1354196552
+s3286848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050B7664A0000000000629C80
+t1354196554
+s6462592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050B7664800000000000015F7
+t1354196552
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000050B7664B0000000000000E8D
+t1354196555
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050B7664F00000000011BA850
+t1354196559
+s18589776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/Availability.h
+c0000000050B766530000000000001B54
+t1354196563
+s6996
+
+N/Users/haradashinya/Library/MobileDevice/Provisioning Profiles/6233AC32-DBA5-4D9F-8523-C767FAB3C255.mobileprovision
+c0000000050792ACF0000000000001CF4
+t1350118095
+s7412
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/WeeklyNews-Prefix-fwmdifulukjrfyfautbrqowskvsa/WeeklyNews-Prefix.pch.pth
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/BookmarkedViewController.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/DetailViewController.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/GradView.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/MainAppDelegate.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/MainViewController.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/NewsModel.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/WeeklyNews.LinkFileList
+c000000005115891E000000000000049F
+t1360365854
+s1183
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Script-10D6D5B2B3C54359836AEBC6.sh
+c000000005115891E000000000000002F
+t1360365854
+s47
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.xcent
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app.dSYM
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default.png
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default@2x.png
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Info.plist
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/PkgInfo
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/ResourceRules.plist
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/WeeklyNews
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/en.lproj/MainStoryboard.storyboardc
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/iPhoneRetina_Glossy_Icon_title_proj.png
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/iPhone_Glossy_Icon_title_proj.png
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/minus.png
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/minus@2x copy.png
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/plus.png
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/plus@2x.png
+t2
+s0
+
+N/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/libPods.a
+c00000000510FB3D80000000000230598
+t1359983576
+s2295192
+
+N/Users/haradashinya/project/WeeklyNews/DetailViewController.m
+c00000000510FB3B600000000000005B6
+t1359983542
+s1462
+
+N/Users/haradashinya/project/WeeklyNews/GradView.m
+c000000005115778C0000000000000542
+t1360361356
+s1346
+
+N/Users/haradashinya/project/WeeklyNews/WeeklyNews/BookmarkedViewController.m
+c000000005114A9F6000000000000109A
+t1360308726
+s4250
+
+N/Users/haradashinya/project/WeeklyNews/WeeklyNews/Default-568h@2x.png
+c0000000050748B2300000000000048A2
+t1349815075
+s18594
+
+N/Users/haradashinya/project/WeeklyNews/WeeklyNews/Default.png
+c0000000050748B23000000000000198C
+t1349815075
+s6540
+
+N/Users/haradashinya/project/WeeklyNews/WeeklyNews/Default@2x.png
+c0000000050748B230000000000003EEB
+t1349815075
+s16107
+
+N/Users/haradashinya/project/WeeklyNews/WeeklyNews/MainAppDelegate.m
+c000000005114A19C00000000000008E8
+t1360306588
+s2280
+
+N/Users/haradashinya/project/WeeklyNews/WeeklyNews/MainViewController.m
+c000000005115786F0000000000001EC1
+t1360361583
+s7873
+
+N/Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.m
+c000000005114A1240000000000000E7C
+t1360306468
+s3708
+
+N/Users/haradashinya/project/WeeklyNews/WeeklyNews/WeeklyNews-Prefix.pch
+c0000000050EEC7910000000000000143
+t1357825937
+s323
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/haradashinya/project/WeeklyNews/WeeklyNews/en.lproj/InfoPlist.strings
+c0000000050EEC791000000000000002D
+t1357825937
+s45
+
+N/Users/haradashinya/project/WeeklyNews/WeeklyNews/en.lproj/MainStoryboard.storyboard
+c000000005114A7330000000000002385
+t1360308019
+s9093
+
+N/Users/haradashinya/project/WeeklyNews/WeeklyNews/main.m
+c0000000050EEC791000000000000015F
+t1357825937
+s351
+
+N/Users/haradashinya/project/WeeklyNews/iPhoneRetina_Glossy_Icon_title_proj.png
+c00000000511581470000000000004FDC
+t1360363847
+s20444
+
+N/Users/haradashinya/project/WeeklyNews/iPhone_Glossy_Icon_title_proj.png
+c000000005115814700000000000017A5
+t1360363847
+s6053
+
+N/Users/haradashinya/project/WeeklyNews/minus.png
+c00000000511569BB00000000000010FC
+t1360357819
+s4348
+
+N/Users/haradashinya/project/WeeklyNews/minus@2x copy.png
+c0000000051156AC10000000000001B29
+t1360358081
+s6953
+
+N/Users/haradashinya/project/WeeklyNews/plus.png
+c0000000051156C970000000000000D86
+t1360358551
+s3462
+
+N/Users/haradashinya/project/WeeklyNews/plus@2x.png
+c0000000051156C910000000000000DE8
+t1360358545
+s3560
+
+NWeeklyNews/WeeklyNews-Info.plist
+c000000005115891D00000000000005B5
+t1360365853
+s1461
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/DetailViewController.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/GradView.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/WeeklyNews/BookmarkedViewController.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/WeeklyNews/MainAppDelegate.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/WeeklyNews/MainViewController.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.m
+r0
+
+CBuild AST from /Users/haradashinya/project/WeeklyNews/WeeklyNews/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1d738e9ec0c5b641^9a5d8f9ec0c5b641^---0#1#0#--18"Check dependencies36"68F238B6-12AE-477C-9830-26E145EBCF4D-
+
+CCodeSign /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app
+s382058658.152300
+e382058658.480880
+r1
+xCodeSign
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"CodeSign DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.appb61127a2c0c5b641^df1b7ba2c0c5b641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/0000000000000000^939"CodeSign DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app    cd /Users/haradashinya/project/WeeklyNews    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 366c74222e43db9fbc06a7d17a92212e0c773f8c --resource-rules=/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/ResourceRules.plist --entitlements /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.xcent /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app36"E5021D4B-D5E7-4592-AF29-8E564D1C26BA-
+
+CCompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/BookmarkedViewController.o /Users/haradashinya/project/WeeklyNews/WeeklyNews/BookmarkedViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382058655.421505
+e382058655.560233
+r1
+xCompileC
+xDerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/BookmarkedViewController.o
+x/Users/haradashinya/project/WeeklyNews/WeeklyNews/BookmarkedViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/haradashinya/project/WeeklyNews/WeeklyNews/BookmarkedViewController.mb9176c9fc0c5b641^056c8f9fc0c5b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/haradashinya/project/WeeklyNews/WeeklyNews/BookmarkedViewController.m0000000000000000^3393"CompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/BookmarkedViewController.o WeeklyNews/BookmarkedViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/include -I/Users/haradashinya/project/WeeklyNews/Pods/Headers -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources/armv7 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/WeeklyNews-Prefix-fwmdifulukjrfyfautbrqowskvsa/WeeklyNews-Prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/BookmarkedViewController.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/BookmarkedViewController.dia -c /Users/haradashinya/project/WeeklyNews/WeeklyNews/BookmarkedViewController.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/BookmarkedViewController.o36"E81A32A4-6C44-4C07-BC5B-D24DC49CB1E0-
+
+CCompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/DetailViewController.o /Users/haradashinya/project/WeeklyNews/DetailViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382058655.403930
+e382058655.532435
+r1
+xCompileC
+xDerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/DetailViewController.o
+x/Users/haradashinya/project/WeeklyNews/DetailViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/haradashinya/project/WeeklyNews/DetailViewController.mf699679fc0c5b641^234d889fc0c5b641^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/haradashinya/project/WeeklyNews/DetailViewController.m0000000000000000^3347"CompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/DetailViewController.o DetailViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/include -I/Users/haradashinya/project/WeeklyNews/Pods/Headers -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources/armv7 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/WeeklyNews-Prefix-fwmdifulukjrfyfautbrqowskvsa/WeeklyNews-Prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/DetailViewController.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/DetailViewController.dia -c /Users/haradashinya/project/WeeklyNews/DetailViewController.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/DetailViewController.o36"B0A4DAA9-C6C4-4B09-81C2-B81729665B58-
+
+CCompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/GradView.o /Users/haradashinya/project/WeeklyNews/GradView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382058655.445521
+e382058655.541100
+r1
+xCompileC
+xDerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/GradView.o
+x/Users/haradashinya/project/WeeklyNews/GradView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/haradashinya/project/WeeklyNews/GradView.m713d729fc0c5b641^2a8b8a9fc0c5b641^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Users/haradashinya/project/WeeklyNews/GradView.m0000000000000000^3275"CompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/GradView.o GradView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/include -I/Users/haradashinya/project/WeeklyNews/Pods/Headers -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources/armv7 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/WeeklyNews-Prefix-fwmdifulukjrfyfautbrqowskvsa/WeeklyNews-Prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/GradView.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/GradView.dia -c /Users/haradashinya/project/WeeklyNews/GradView.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/GradView.o36"B31FCECF-5223-40F8-A535-8F72FBBFBF83-
+
+CCompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/MainAppDelegate.o /Users/haradashinya/project/WeeklyNews/WeeklyNews/MainAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382058655.207044
+e382058655.420177
+r1
+xCompileC
+xDerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/MainAppDelegate.o
+x/Users/haradashinya/project/WeeklyNews/WeeklyNews/MainAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/haradashinya/project/WeeklyNews/WeeklyNews/MainAppDelegate.m965e379fc0c5b641^47aa6b9fc0c5b641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/haradashinya/project/WeeklyNews/WeeklyNews/MainAppDelegate.m0000000000000000^3339"CompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/MainAppDelegate.o WeeklyNews/MainAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/include -I/Users/haradashinya/project/WeeklyNews/Pods/Headers -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources/armv7 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/WeeklyNews-Prefix-fwmdifulukjrfyfautbrqowskvsa/WeeklyNews-Prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/MainAppDelegate.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/MainAppDelegate.dia -c /Users/haradashinya/project/WeeklyNews/WeeklyNews/MainAppDelegate.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/MainAppDelegate.o36"E1ED2A7F-80FA-48C4-99FD-0129D1F63049-
+
+CCompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/MainViewController.o /Users/haradashinya/project/WeeklyNews/WeeklyNews/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382058655.206997
+e382058655.503548
+r1
+xCompileC
+xDerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/MainViewController.o
+x/Users/haradashinya/project/WeeklyNews/WeeklyNews/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/haradashinya/project/WeeklyNews/WeeklyNews/MainViewController.me354379fc0c5b641^4eed809fc0c5b641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/haradashinya/project/WeeklyNews/WeeklyNews/MainViewController.m0000000000000000^3357"CompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/MainViewController.o WeeklyNews/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/include -I/Users/haradashinya/project/WeeklyNews/Pods/Headers -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources/armv7 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/WeeklyNews-Prefix-fwmdifulukjrfyfautbrqowskvsa/WeeklyNews-Prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/MainViewController.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/MainViewController.dia -c /Users/haradashinya/project/WeeklyNews/WeeklyNews/MainViewController.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/MainViewController.o36"6EE6D4D7-E7DA-4023-ACF6-F7C2B2C3E1C0-
+
+CCompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/NewsModel.o /Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382058655.207086
+e382058655.444079
+r1
+xCompileC
+xDerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/NewsModel.o
+x/Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.m:11:17: warning: incomplete implementation [-Wincomplete-implementation]
+o@implementation NewsModel
+o                ^
+o/Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.h:25:1: note: method definition for 'receivedNewsWith:' not found
+o-(void)receivedNewsWith:(NSArray *)data;
+o^
+o/Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.h:26:1: note: method definition for 'receivedNews' not found
+o-(void)receivedNews;
+o^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.m8d60379fc0c5b641^fad4719fc0c5b641^-512"/Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.m:11:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation NewsModel                ^/Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.h:25:1: note: method definition for 'receivedNewsWith:' not found-(void)receivedNewsWith:(NSArray *)data;^/Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.h:26:1: note: method definition for 'receivedNews' not found-(void)receivedNews;^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"Incomplete implementation-382058655#18446744073709551615#0#2(2@51"Method definition for 'receivedNewsWith:' not found-382058655#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@77"file://localhost/Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.h0000000000000000^24#0#24#0#588#0#14"Semantic Issue--2@46"Method definition for 'receivedNews' not found-382058655#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.h0000000000000000^25#0#25#0#629#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.m0000000000000000^10#16#10#16#180#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@77"file://localhost/Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.m0000000000000000^3303"CompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/NewsModel.o WeeklyNews/NewsModel.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/include -I/Users/haradashinya/project/WeeklyNews/Pods/Headers -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources/armv7 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/WeeklyNews-Prefix-fwmdifulukjrfyfautbrqowskvsa/WeeklyNews-Prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/NewsModel.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/NewsModel.dia -c /Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/NewsModel.o36"0FE17B10-4118-4EA4-BBEF-17E305D4A07F-
+
+CCompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/main.o /Users/haradashinya/project/WeeklyNews/WeeklyNews/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382058655.206995
+e382058655.402528
+r1
+xCompileC
+xDerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/main.o
+x/Users/haradashinya/project/WeeklyNews/WeeklyNews/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/haradashinya/project/WeeklyNews/WeeklyNews/main.m795d379fc0c5b641^091a679fc0c5b641^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/haradashinya/project/WeeklyNews/WeeklyNews/main.m0000000000000000^3273"CompileC DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/main.o WeeklyNews/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/include -I/Users/haradashinya/project/WeeklyNews/Pods/Headers -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources/armv7 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos -include /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/WeeklyNews-Prefix-fwmdifulukjrfyfautbrqowskvsa/WeeklyNews-Prefix.pch -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/main.dia -c /Users/haradashinya/project/WeeklyNews/WeeklyNews/main.m -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/main.o36"953D0A41-B100-4659-84D7-337EFD57551D-
+
+CCompileStoryboard /Users/haradashinya/project/WeeklyNews/WeeklyNews/en.lproj/MainStoryboard.storyboard
+s382058656.214305
+e382058657.989889
+r1
+xCompileStoryboard
+x/Users/haradashinya/project/WeeklyNews/WeeklyNews/en.lproj/MainStoryboard.storyboard
+o2013-02-09 08:24:17.381 Interface Builder Cocoa Touch Tool[1499:f07] CFPreferences: user home directory at file://localhost/Users/haradashinya/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o/* com.apple.ibtool.document.warnings */
+o/Users/haradashinya/project/WeeklyNews/WeeklyNews/en.lproj/MainStoryboard.storyboard:fFE-10-1w6: warning: Prototype table cells must have reuse identifiers [9]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"CompileStoryboard WeeklyNews/en.lproj/MainStoryboard.storyboard2efe36a0c0c5b641^ea7bfda1c0c5b641^-284"2013-02-09 08:24:17.381 Interface Builder Cocoa Touch Tool[1499:f07] CFPreferences: user home directory at file://localhost/Users/haradashinya/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.ibtool.document.warnings */1(21%IDEActivityLogMessage2@49"Prototype table cells must have reuse identifiers-382058657#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@100"file://localhost/Users/haradashinya/project/WeeklyNews/WeeklyNews/en.lproj/MainStoryboard.storyboard0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@100"file://localhost/Users/haradashinya/project/WeeklyNews/WeeklyNews/en.lproj/MainStoryboard.storyboard0000000000000000^912"CompileStoryboard WeeklyNews/en.lproj/MainStoryboard.storyboard    cd /Users/haradashinya/project/WeeklyNews    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/en.lproj/MainStoryboard.storyboardc /Users/haradashinya/project/WeeklyNews/WeeklyNews/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"9403EB78-B368-40B9-81B9-A52C5D0C6BFB-
+
+CCopyPNGFile "/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/minus@2x copy.png" "minus@2x copy.png"
+s382058656.345788
+e382058656.399756
+r1
+xCopyPNGFile
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/minus@2x copy.png
+xminus@2x copy.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"CopyPNGFile "DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/minus@2x copy.png" "minus@2x copy.png"8ca158a0c0c5b641^e35566a0c0c5b641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/haradashinya/project/WeeklyNews/minus@2x%20copy.png0000000000000000^654"CopyPNGFile "DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/minus@2x copy.png" "minus@2x copy.png"    cd /Users/haradashinya/project/WeeklyNews    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/haradashinya/project/WeeklyNews/minus@2x copy.png" "/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/minus@2x copy.png"36"9157D893-5A5D-4F6D-A1FF-A6E4126114DB-
+
+CCopyPNGFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default-568h@2x.png WeeklyNews/Default-568h@2x.png
+s382058656.206923
+e382058656.370183
+r1
+xCopyPNGFile
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default-568h@2x.png
+xWeeklyNews/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"CopyPNGFile DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default-568h@2x.png WeeklyNews/Default-568h@2x.pnge01135a0c0c5b641^2dcc5ea0c0c5b641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/haradashinya/project/WeeklyNews/WeeklyNews/Default-568h@2x.png0000000000000000^684"CopyPNGFile "DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default-568h@2x.png" "WeeklyNews/Default-568h@2x.png"    cd /Users/haradashinya/project/WeeklyNews    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/haradashinya/project/WeeklyNews/WeeklyNews/Default-568h@2x.png" "/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default-568h@2x.png"36"CE354CB0-6036-4602-8600-A10585AC13A1-
+
+CCopyPNGFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default.png WeeklyNews/Default.png
+s382058656.206684
+e382058656.293306
+r1
+xCopyPNGFile
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default.png
+xWeeklyNews/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"CopyPNGFile DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default.png WeeklyNews/Default.png080535a0c0c5b641^27174ba0c0c5b641^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/haradashinya/project/WeeklyNews/WeeklyNews/Default.png0000000000000000^644"CopyPNGFile DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default.png WeeklyNews/Default.png    cd /Users/haradashinya/project/WeeklyNews    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/haradashinya/project/WeeklyNews/WeeklyNews/Default.png /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default.png36"86A4FF2D-463A-4329-9C58-66231A06D8A1-
+
+CCopyPNGFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default@2x.png WeeklyNews/Default@2x.png
+s382058656.206702
+e382058656.356672
+r1
+xCopyPNGFile
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default@2x.png
+xWeeklyNews/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"CopyPNGFile DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default@2x.png WeeklyNews/Default@2x.pngc00535a0c0c5b641^bc5d5ba0c0c5b641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/haradashinya/project/WeeklyNews/WeeklyNews/Default@2x.png0000000000000000^664"CopyPNGFile "DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default@2x.png" "WeeklyNews/Default@2x.png"    cd /Users/haradashinya/project/WeeklyNews    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/haradashinya/project/WeeklyNews/WeeklyNews/Default@2x.png" "/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Default@2x.png"36"66B9C27E-DC76-4535-9955-B1C9467D09F6-
+
+CCopyPNGFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/iPhoneRetina_Glossy_Icon_title_proj.png iPhoneRetina_Glossy_Icon_title_proj.png
+s382058656.401108
+e382058656.467639
+r1
+xCopyPNGFile
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/iPhoneRetina_Glossy_Icon_title_proj.png
+xiPhoneRetina_Glossy_Icon_title_proj.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"CopyPNGFile DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/iPhoneRetina_Glossy_Icon_title_proj.png iPhoneRetina_Glossy_Icon_title_proj.pngc5c866a0c0c5b641^d8b777a0c0c5b641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/haradashinya/project/WeeklyNews/iPhoneRetina_Glossy_Icon_title_proj.png0000000000000000^734"CopyPNGFile DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/iPhoneRetina_Glossy_Icon_title_proj.png iPhoneRetina_Glossy_Icon_title_proj.png    cd /Users/haradashinya/project/WeeklyNews    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/haradashinya/project/WeeklyNews/iPhoneRetina_Glossy_Icon_title_proj.png /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/iPhoneRetina_Glossy_Icon_title_proj.png36"9272996D-7D5F-4BC8-B9D4-310BB44DB761-
+
+CCopyPNGFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/iPhone_Glossy_Icon_title_proj.png iPhone_Glossy_Icon_title_proj.png
+s382058656.409600
+e382058656.460555
+r1
+xCopyPNGFile
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/iPhone_Glossy_Icon_title_proj.png
+xiPhone_Glossy_Icon_title_proj.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"CopyPNGFile DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/iPhone_Glossy_Icon_title_proj.png iPhone_Glossy_Icon_title_proj.pngb6f868a0c0c5b641^21e775a0c0c5b641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/haradashinya/project/WeeklyNews/iPhone_Glossy_Icon_title_proj.png0000000000000000^710"CopyPNGFile DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/iPhone_Glossy_Icon_title_proj.png iPhone_Glossy_Icon_title_proj.png    cd /Users/haradashinya/project/WeeklyNews    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/haradashinya/project/WeeklyNews/iPhone_Glossy_Icon_title_proj.png /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/iPhone_Glossy_Icon_title_proj.png36"E695062C-FECC-4675-A02E-4448CF6F9043-
+
+CCopyPNGFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/minus.png minus.png
+s382058656.294683
+e382058656.344458
+r1
+xCopyPNGFile
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/minus.png
+xminus.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"CopyPNGFile DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/minus.png minus.pngca884ba0c0c5b641^6a3158a0c0c5b641^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Users/haradashinya/project/WeeklyNews/minus.png0000000000000000^614"CopyPNGFile DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/minus.png minus.png    cd /Users/haradashinya/project/WeeklyNews    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/haradashinya/project/WeeklyNews/minus.png /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/minus.png36"DA7F850A-8819-4C64-8F28-A6FF6E116EC8-
+
+CCopyPNGFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/plus.png plus.png
+s382058656.358035
+e382058656.408214
+r1
+xCopyPNGFile
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/plus.png
+xplus.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"CopyPNGFile DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/plus.png plus.png44c25ba0c0c5b641^a18168a0c0c5b641^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Users/haradashinya/project/WeeklyNews/plus.png0000000000000000^610"CopyPNGFile DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/plus.png plus.png    cd /Users/haradashinya/project/WeeklyNews    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/haradashinya/project/WeeklyNews/plus.png /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/plus.png36"121290DF-5F80-4DBF-8954-E2E97B6B7D0B-
+
+CCopyPNGFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/plus@2x.png plus@2x.png
+s382058656.371558
+e382058656.421841
+r1
+xCopyPNGFile
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/plus@2x.png
+xplus@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"CopyPNGFile DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/plus@2x.png plus@2x.pngb4385fa0c0c5b641^e3fe6ba0c0c5b641^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/haradashinya/project/WeeklyNews/plus@2x.png0000000000000000^630"CopyPNGFile "DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/plus@2x.png" "plus@2x.png"    cd /Users/haradashinya/project/WeeklyNews    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/haradashinya/project/WeeklyNews/plus@2x.png" "/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/plus@2x.png"36"1BFEECFD-B96A-4B88-BBA1-249DB6D25A5B-
+
+CCopyStringsFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/en.lproj/InfoPlist.strings WeeklyNews/en.lproj/InfoPlist.strings
+s382058656.206696
+e382058656.212941
+r1
+xCopyStringsFile
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/en.lproj/InfoPlist.strings
+xWeeklyNews/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy WeeklyNews/en.lproj/InfoPlist.stringsf60c35a0c0c5b641^e88636a0c0c5b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/haradashinya/project/WeeklyNews/WeeklyNews/en.lproj/InfoPlist.strings0000000000000000^630"CopyStringsFile DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/en.lproj/InfoPlist.strings WeeklyNews/en.lproj/InfoPlist.strings    cd /Users/haradashinya/project/WeeklyNews    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/en.lproj -- WeeklyNews/en.lproj/InfoPlist.strings36"3AA01619-221F-4B14-B35B-EBE8DBC98E9F-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/ResourceRules.plist
+s382058654.566217
+e382058654.570223
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+xDerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/ResourceRules.plist280d919ec0c5b641^dbfa919ec0c5b641^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/ResourceRules.plist000000000080d041^796"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/ResourceRules.plist    cd /Users/haradashinya/project/WeeklyNews    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app36"5027031E-AB6F-44A2-8172-FBAF27778297-
+
+CGenerateDSYMFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app.dSYM /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/WeeklyNews
+s382058656.118232
+e382058656.198237
+r1
+xGenerateDSYMFile
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app.dSYM
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/WeeklyNews
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Generating /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app.dSYM86571ea0c0c5b641^62c032a0c0c5b641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app.dSYM000000000080d041^736"GenerateDSYMFile DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app.dSYM DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/WeeklyNews    cd /Users/haradashinya/project/WeeklyNews    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/WeeklyNews -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app.dSYM36"755CDF47-6A28-41F1-9ED2-A5D06C428581-
+
+CLd /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/WeeklyNews normal armv7
+s382058655.567026
+e382058656.111257
+r1
+xLd
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/WeeklyNews
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Link /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/WeeklyNews5644919fc0c5b641^207c1ca0c0c5b641^---0#0#0#--1264"Ld DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/WeeklyNews normal armv7    cd /Users/haradashinya/project/WeeklyNews    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos -filelist /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/WeeklyNews.LinkFileList -dead_strip -ObjC -framework SystemConfiguration -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -lPods -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/WeeklyNews36"1B2FCECA-C912-407D-AD88-6A3F8BD3249F-
+
+CPhaseScriptExecution "Copy Pods Resources" /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Script-10D6D5B2B3C54359836AEBC6.sh
+s382058657.998004
+e382058658.089859
+r1
+xPhaseScriptExecution
+xCopy Pods Resources
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Script-10D6D5B2B3C54359836AEBC6.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'cee300a2c0c5b641^e7fe16a2c0c5b641^---0#0#0#--22819"PhaseScriptExecution "Copy Pods Resources" DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Script-10D6D5B2B3C54359836AEBC6.sh    cd /Users/haradashinya/project/WeeklyNews    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER haradashinya    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD_32_64_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_32_BIT "armv7 armv7s"    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv7 armv7s"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products    setenv BUILD_ROOT /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos    setenv CACHE_ROOT /var/folders/gq/_jg9tdq90w903zq653lrcnsm0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/gq/_jg9tdq90w903zq653lrcnsm0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_CXX_LANGUAGE_STANDARD gnu++0x    setenv CLANG_CXX_LIBRARY libc++    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_EMPTY_BODY YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/gq/_jg9tdq90w903zq653lrcnsm0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH WeeklyNews.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/haradashinya/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH WeeklyNews.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/WeeklyNews.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME WeeklyNews.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH WeeklyNews.app/Executables    setenv EXECUTABLE_FOLDER_PATH WeeklyNews.app    setenv EXECUTABLE_NAME WeeklyNews    setenv EXECUTABLE_PATH WeeklyNews.app/WeeklyNews    setenv FILE_LIST /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH WeeklyNews.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME WeeklyNews.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER WeeklyNews/WeeklyNews-Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS "DEBUG=1 "    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/include\" \"/Users/haradashinya/project/WeeklyNews/Pods/Headers\" \"/Users/haradashinya/project/WeeklyNews/Pods/Headers/AFNetworking\" \"/Users/haradashinya/project/WeeklyNews/Pods/Headers/DTFoundation\" \"/Users/haradashinya/project/WeeklyNews/Pods/Headers/JSONKit\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE WeeklyNews/WeeklyNews-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH WeeklyNews.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH WeeklyNews.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/WeeklyNews.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER haradashinya    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/WeeklyNews.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH WeeklyNews.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews-LinkMap-normal-armv7.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal/armv7/WeeklyNews.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH WeeklyNews.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12C60    setenv MAC_OS_X_VERSION_ACTUAL 1082    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0802    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Objects-normal    setenv OBJROOT /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-ObjC -framework SystemConfiguration"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH WeeklyNews.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/PkgInfo    setenv PKGINFO_PATH WeeklyNews.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH armv7    setenv PLATFORM_PRODUCT_BUILD_VERSION 10A403    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH WeeklyNews.app/PlugIns    setenv PODS_BUILD_HEADERS_SEARCH_PATHS "\"/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders\" \"/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/AFNetworking\" \"/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/DTFoundation\" \"/Users/haradashinya/project/WeeklyNews/Pods/BuildHeaders/JSONKit\""    setenv PODS_HEADERS_SEARCH_PATHS "\"/Users/haradashinya/project/WeeklyNews/Pods/Headers\" \"/Users/haradashinya/project/WeeklyNews/Pods/Headers/AFNetworking\" \"/Users/haradashinya/project/WeeklyNews/Pods/Headers/DTFoundation\" \"/Users/haradashinya/project/WeeklyNews/Pods/Headers/JSONKit\""    setenv PODS_PUBLIC_HEADERS_SEARCH_PATHS "\"/Users/haradashinya/project/WeeklyNews/Pods/Headers\" \"/Users/haradashinya/project/WeeklyNews/Pods/Headers/AFNetworking\" \"/Users/haradashinya/project/WeeklyNews/Pods/Headers/DTFoundation\" \"/Users/haradashinya/project/WeeklyNews/Pods/Headers/JSONKit\""    setenv PODS_ROOT /Users/haradashinya/project/WeeklyNews/Pods    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH WeeklyNews.app/PrivateHeaders    setenv PRODUCT_NAME WeeklyNews    setenv PRODUCT_SETTINGS_PATH /Users/haradashinya/project/WeeklyNews/WeeklyNews/WeeklyNews-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT WeeklyNews    setenv PROJECT_DERIVED_FILE_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/DerivedSources    setenv PROJECT_DIR /Users/haradashinya/project/WeeklyNews    setenv PROJECT_FILE_PATH /Users/haradashinya/project/WeeklyNews/WeeklyNews.xcodeproj    setenv PROJECT_NAME WeeklyNews    setenv PROJECT_TEMP_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH WeeklyNews.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH WeeklyNews.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk    setenv SDK_NAME iphoneos6.0    setenv SDK_PRODUCT_BUILD_VERSION 10A403    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH WeeklyNews.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH WeeklyNews.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/haradashinya/project/WeeklyNews    setenv SRCROOT /Users/haradashinya/project/WeeklyNews    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME WeeklyNews    setenv TARGET_BUILD_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos    setenv TARGET_NAME WeeklyNews    setenv TARGET_TEMP_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build    setenv TEMP_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build    setenv TEMP_FILES_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build    setenv TEMP_FILE_DIR /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build    setenv TEMP_ROOT /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH WeeklyNews.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER haradashinya    setenv USER_APPS_DIR /Users/haradashinya/Applications    setenv USER_LIBRARY_DIR /Users/haradashinya/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv7 armv7s"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH WeeklyNews.app/version.plist    setenv VERSION_INFO_BUILDER haradashinya    setenv VERSION_INFO_FILE WeeklyNews_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:WeeklyNews  PROJECT:WeeklyNews-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME WeeklyNews.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4G2008a    setenv XCODE_VERSION_ACTUAL 0452    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0450    setenv YACC yacc    /bin/sh -c /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/Script-10D6D5B2B3C54359836AEBC6.sh36"BA33900C-AB82-4F5A-A2DB-5DC9D56EF577-
+
+CProcessInfoPlistFile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Info.plist WeeklyNews/WeeklyNews-Info.plist
+s382058654.566215
+e382058654.569756
+r1
+xProcessInfoPlistFile
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Info.plist
+xWeeklyNews/WeeklyNews-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process WeeklyNews/WeeklyNews-Info.plistd40c919ec0c5b641^a0dd919ec0c5b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/haradashinya/project/WeeklyNews/WeeklyNews/WeeklyNews-Info.plist0000000000000000^878"ProcessInfoPlistFile DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Info.plist WeeklyNews/WeeklyNews-Info.plist    cd /Users/haradashinya/project/WeeklyNews    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility WeeklyNews/WeeklyNews-Info.plist -genpkginfo /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/ResourceRules.plist -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/Info.plist36"21A80F83-4A36-49E1-9D48-213B43829D03-
+
+CProcessPCH /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/WeeklyNews-Prefix-fwmdifulukjrfyfautbrqowskvsa/WeeklyNews-Prefix.pch.pth WeeklyNews/WeeklyNews-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382058654.578054
+e382058655.200680
+r1
+xProcessPCH
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/WeeklyNews-Prefix-fwmdifulukjrfyfautbrqowskvsa/WeeklyNews-Prefix.pch.pth
+xWeeklyNews/WeeklyNews-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile WeeklyNews/WeeklyNews-Prefix.pch7d04969ec0c5b641^4e5f339fc0c5b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/haradashinya/project/WeeklyNews/WeeklyNews/WeeklyNews-Prefix.pch0000000000000000^3189"ProcessPCH DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/WeeklyNews-Prefix-fwmdifulukjrfyfautbrqowskvsa/WeeklyNews-Prefix.pch.pth WeeklyNews/WeeklyNews-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/haradashinya/project/WeeklyNews    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.hmap -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/include -I/Users/haradashinya/project/WeeklyNews/Pods/Headers -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/AFNetworking -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/DTFoundation -I/Users/haradashinya/project/WeeklyNews/Pods/Headers/JSONKit -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources/armv7 -I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/DerivedSources -F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/WeeklyNews-Prefix-fwmdifulukjrfyfautbrqowskvsa/WeeklyNews-Prefix.pch.dia -c /Users/haradashinya/project/WeeklyNews/WeeklyNews/WeeklyNews-Prefix.pch -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/WeeklyNews-Prefix-fwmdifulukjrfyfautbrqowskvsa/WeeklyNews-Prefix.pch.pth -MMD -MT dependencies -MF /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/PrecompiledHeaders/WeeklyNews-Prefix-fwmdifulukjrfyfautbrqowskvsa/WeeklyNews-Prefix.pch.d36"8BF2C359-C7CB-4679-9D47-8731080A627E-
+
+CProcessPCH /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Index/PrecompiledHeaders/WeeklyNews-Prefix-ersoozamygcajwawjgmuozeoxqmf_ast/WeeklyNews-Prefix.pch.pth WeeklyNews/WeeklyNews-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging "/Users/haradashinya/Library/MobileDevice/Provisioning Profiles/6233AC32-DBA5-4D9F-8523-C767FAB3C255.mobileprovision" /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/embedded.mobileprovision
+s382058658.109882
+e382058658.112970
+r1
+xProcessProductPackaging
+x/Users/haradashinya/Library/MobileDevice/Provisioning Profiles/6233AC32-DBA5-4D9F-8523-C767FAB3C255.mobileprovision
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection234"ProcessProductPackaging "/Users/haradashinya/Library/MobileDevice/Provisioning Profiles/6233AC32-DBA5-4D9F-8523-C767FAB3C255.mobileprovision" DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/embedded.mobileprovision0f421ca2c0c5b641^86e81ca2c0c5b641^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/embedded.mobileprovision0000000000000000^758"ProcessProductPackaging "/Users/haradashinya/Library/MobileDevice/Provisioning Profiles/6233AC32-DBA5-4D9F-8523-C767FAB3C255.mobileprovision" DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/embedded.mobileprovision    cd /Users/haradashinya/project/WeeklyNews    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/haradashinya/Library/MobileDevice/Provisioning Profiles/6233AC32-DBA5-4D9F-8523-C767FAB3C255.mobileprovision" -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app/embedded.mobileprovision36"8D251EEA-D29E-43CE-9E85-2D632EA16E5B-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.xcent
+s382058658.140153
+e382058658.144268
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection253"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.xcent0af623a2c0c5b641^bfee24a2c0c5b641^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.xcent000000000080d041^822"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.xcent    cd /Users/haradashinya/project/WeeklyNews    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/WeeklyNews.build/Debug-iphoneos/WeeklyNews.build/WeeklyNews.xcent36"20A42B3C-A845-4291-A7B8-A1C16D7654BF-
+
+CTouch /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app
+s382058658.121012
+e382058658.132115
+r1
+xTouch
+x/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Touch /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.appba141fa2c0c5b641^78d321a2c0c5b641^---0#0#0#--437"Touch DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app    cd /Users/haradashinya/project/WeeklyNews    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Products/Debug-iphoneos/WeeklyNews.app36"C0DE9F74-69F5-4C91-BED8-FC00905D4B32-
+
