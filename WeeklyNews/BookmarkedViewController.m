@@ -29,19 +29,20 @@
 }
 -(void)viewWillAppear:(BOOL)animated
 {
+    NSLog(@"viewAppear");
     
     ud = [NSUserDefaults standardUserDefaults];
     
-//    NSArray* reversedArray = [[startArray reverseObjectEnumerator] allObjects];
 
     bookmarkedArray = [[[[ud objectForKey:@"bookmarkedArray"] reverseObjectEnumerator] allObjects] mutableCopy];
+    [self.tableView setEditing:YES animated:YES];
+
     
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSLog(@"callleed");
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -74,7 +75,6 @@
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    NSLog(@"%@",bookmarkedArray);
     NSString *titleStr;
     if ([bookmarkedArray objectAtIndex:indexPath.row]){
          titleStr = [[bookmarkedArray objectAtIndex:indexPath.row] valueForKey:@"content"];
@@ -120,20 +120,30 @@
     // 一番最初にリバースした奴なので、もう一回リバースしてもとに戻す。
     [ud setObject:bookmarkedArray forKey:@"bookmarkedArray"];
     
-    [ud synchronize];
-    // delete current row;
     
-    [self.tableView reloadData];
-    
-    
+}
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        
+        NSDictionary *dic = [bookmarkedArray objectAtIndex:indexPath.row];
+        [bookmarkedArray removeObject:dic];
+        // 一番最初にリバースした奴なので、もう一回リバースしてもとに戻す。
+        [ud setObject:bookmarkedArray forKey:@"bookmarkedArray"];
+        // 削除処理
+		// 該当するデータを削除する
+		
+		// テーブルから該当セルを削除する
+        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    }
+    else if (editingStyle == UITableViewCellEditingStyleInsert) {
+        // 挿入処理
+    }
 }
 
 #pragma mark - Table view delegate
 
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-//    NSLog(@"dic is %@",[dic objectForKey:@"content"]);
-}
 
 @end

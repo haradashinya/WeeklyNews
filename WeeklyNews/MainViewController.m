@@ -30,20 +30,19 @@
     
     ud = [NSUserDefaults standardUserDefaults];
     if (![[ud objectForKey:@"bookmarkedArray"] respondsToSelector:@selector(count)] ){
-        NSLog(@"set up ud");
         bookmarkedArray = [[NSMutableArray alloc ] init];
         [ud setObject:bookmarkedArray  forKey:@"bookmarkedArray"];
     }else{
-        
-        NSLog(@"ud is %i",[[ud objectForKey:@"bookmarkedArray"] count]);
         bookmarkedArray = [ud objectForKey:@"bookmarkedArray"];
-        
     }
     [ud synchronize];
     
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"called ddd");
+    
+    
     [self setUpUserDefaults];
     
     // 最初に表示するCell
@@ -62,7 +61,12 @@
     for(int i = 0; i < 20;i++){
         [newDataArray addObject:[NSString stringWithFormat:@"%i",i]];
     }
-
+    
+}
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:NO];
+    
 }
 
 -(void)receivedNews
@@ -215,6 +219,7 @@
         NSLog(@"called insert");
         //insert
         [bookmarkedArray addObject:data];
+        NSLog(@"bookmarkdArray is %@",bookmarkedArray);
         [btn setBackgroundImage:[UIImage imageNamed:@"minus.png"] forState:UIControlStateNormal];
         btn.titleLabel.text = @"minus";
     }else{
@@ -225,6 +230,8 @@
         [btn setBackgroundImage:[UIImage imageNamed:@"plus.png"] forState:UIControlStateNormal];
         btn.titleLabel.text = @"plus";
     }
+    [ud setObject:bookmarkedArray forKey:@"bookmarkedArray"];
+    [ud synchronize];
     
     
 }
