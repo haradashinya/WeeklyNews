@@ -62,6 +62,15 @@
 {
     return 1 ;
 }
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSDictionary *dic = [newsModel.bookmarkedArray objectAtIndex:indexPath.row];
+    NSString *href = [dic objectForKey:@"href"];
+    newsModel.currentHref = href;
+    DetailViewController *dvc = [[DetailViewController alloc] init];
+    [self.navigationController pushViewController:dvc animated:NO];
+
+}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -81,7 +90,6 @@
     
     
     if (cell == nil) {
-        NSDictionary *data = [newsModel.bookmarkedArray objectAtIndex:indexPath.row];
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         cell.textLabel.numberOfLines = 5;
         
@@ -91,15 +99,6 @@
         [cell setSelectionStyle:UITableViewCellStyleValue2];
         [cell setBackgroundColor:[UIColor redColor]];
         
-        UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
-        [btn setBackgroundColor:[UIColor blackColor]];
-        [cell addSubview:btn];
-//        int rowNum = [newsModel.bookmarkedArray indexOfObject:data];
-//        btn.tag = rowNum;
-//        [btn addTarget:self action:@selector(onToggle:) forControlEvents:UIControlEventTouchUpInside];
-//        [btn setBackgroundImage:[UIImage imageNamed:@"minus.png"] forState:UIControlStateNormal];
-//        btn.titleLabel.text = @"minus";
-//        cell.accessoryView = btn;
         
     }
     

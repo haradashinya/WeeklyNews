@@ -12,4 +12,5 @@ dependencies: \
   /Users/haradashinya/project/WeeklyNews/Pods/Headers/AFNetworking/AFImageRequestOperation.h \
   /Users/haradashinya/project/WeeklyNews/Pods/Headers/AFNetworking/AFNetworkActivityIndicatorManager.h \
   /Users/haradashinya/project/WeeklyNews/Pods/Headers/AFNetworking/UIImageView+AFNetworking.h \
-  /Users/haradashinya/project/WeeklyNews/Pods/Headers/JSONKit/JSONKit.h
+  /Users/haradashinya/project/WeeklyNews/Pods/Headers/JSONKit/JSONKit.h \
+  /Users/haradashinya/project/WeeklyNews/DetailViewController.h

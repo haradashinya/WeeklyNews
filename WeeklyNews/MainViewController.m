@@ -135,7 +135,6 @@
         if (newsModel.items){
             NSDictionary *data = [newsModel.items objectAtIndex:indexPath.row];
             cell.textLabel.text = [[newsModel.items objectAtIndex:indexPath.row] objectForKey:@"content"];
-            NSLog(@"callflflflflfflflfllfl");
             
             UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
             int rowNum = [newsModel.items indexOfObject:data];
