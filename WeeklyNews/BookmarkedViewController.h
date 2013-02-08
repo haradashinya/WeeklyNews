@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "NewsModel.h"
 
-@interface BookmarkedViewController : UITableViewController
+@interface BookmarkedViewController : UITableViewController<UITableViewDelegate,UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *editButton;
+- (IBAction)onTappedEditButton:(id)sender;
 
 @end

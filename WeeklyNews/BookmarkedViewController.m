@@ -32,16 +32,15 @@
 {
     NSLog(@"viewAppear");
     newsModel = [NewsModel shared];
+    [self.tableView setAllowsSelection:YES];
     
-//    ud = [NSUserDefaults standardUserDefaults];
     [self.tableView reloadData];
     
     newsModel.bookmarkedArray = [[[newsModel.bookmarkedArray reverseObjectEnumerator] allObjects] mutableCopy];
     
     NSLog(@"newsModel.bookMarkedArray is %@",newsModel.bookmarkedArray);
 
-//    bookmarkedArray = [[[[ud objectForKey:@"bookmarkedArray"] reverseObjectEnumerator] allObjects] mutableCopy];
-    [self.tableView setEditing:YES animated:YES];
+//    [self.tableView setEditing:YES animated:YES];
 
     
 }
@@ -49,12 +48,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning
@@ -99,12 +92,14 @@
         [cell setBackgroundColor:[UIColor redColor]];
         
         UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
-        int rowNum = [newsModel.bookmarkedArray indexOfObject:data];
-        btn.tag = rowNum;
-        [btn addTarget:self action:@selector(onToggle:) forControlEvents:UIControlEventTouchUpInside];
-        [btn setBackgroundImage:[UIImage imageNamed:@"minus.png"] forState:UIControlStateNormal];
-        btn.titleLabel.text = @"minus";
-        cell.accessoryView = btn;
+        [btn setBackgroundColor:[UIColor blackColor]];
+        [cell addSubview:btn];
+//        int rowNum = [newsModel.bookmarkedArray indexOfObject:data];
+//        btn.tag = rowNum;
+//        [btn addTarget:self action:@selector(onToggle:) forControlEvents:UIControlEventTouchUpInside];
+//        [btn setBackgroundImage:[UIImage imageNamed:@"minus.png"] forState:UIControlStateNormal];
+//        btn.titleLabel.text = @"minus";
+//        cell.accessoryView = btn;
         
     }
     
@@ -135,13 +130,6 @@
         
         NSDictionary *dic = [newsModel.bookmarkedArray objectAtIndex:indexPath.row];
         [newsModel.bookmarkedArray removeObject:dic];
-        // 一番最初にリバースした奴なので、もう一回リバースしてもとに戻す。
-//        [ud setObject:bookmarkedArray forKey:@"bookmarkedArray"];
-//        [ud synchronize];
-        // 削除処理
-		// 該当するデータを削除する
-		
-		// テーブルから該当セルを削除する
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
     }
     else if (editingStyle == UITableViewCellEditingStyleInsert) {
@@ -153,4 +141,13 @@
 
 
 
+- (IBAction)onTappedEditButton:(id)sender {
+    if ([self.navigationItem.rightBarButtonItem.title isEqual:@"Edit"]){
+        [self setEditing:YES animated:YES];
+        [self.navigationItem.rightBarButtonItem setTitle:@"Cancel"];
+    }else{
+        [self setEditing:NO animated:NO];
+        [self.navigationItem.rightBarButtonItem setTitle:@"Edit"];
+    }
+}
 @end
