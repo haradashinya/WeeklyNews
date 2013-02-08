@@ -25,33 +25,21 @@
     // 一回loadMoreCellが呼ばれるたびに、rowのリセットが発生するので、そのたびにcurMulを位置増やして5かける.
 }
 
--(void)setUpUserDefaults
-{
-    
-    ud = [NSUserDefaults standardUserDefaults];
-    if (![[ud objectForKey:@"bookmarkedArray"] respondsToSelector:@selector(count)] ){
-        bookmarkedArray = [[NSMutableArray alloc ] init];
-        [ud setObject:bookmarkedArray  forKey:@"bookmarkedArray"];
-    }else{
-        bookmarkedArray = [ud objectForKey:@"bookmarkedArray"];
-    }
-    [ud synchronize];
-    
-}
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    ud = [NSUserDefaults standardUserDefaults];
     
-    [self setUpUserDefaults];
+    newsModel = [NewsModel shared];
+    newsModel.delegate = self;
+    [newsModel fetchLatestNumber];
+    
     
     // 最初に表示するCell
     self.dataArray = [[NSMutableArray alloc] init];
     for (int i = 0 ; i < 10;i++){
         [self.dataArray addObject:[NSString stringWithFormat:@"%i",i]];
     }
-    newsModel = [NewsModel shared];
-    newsModel.delegate = self;
-    [newsModel fetchLatestNumber];
     for(int i = 0 ; i < 20;i++){
         [self.dataArray addObject:[NSString stringWithFormat:@"%i",i]];
     }
@@ -178,12 +166,13 @@
 // if news Item already exist in bookmarked data , then return YES.
 -(Boolean )hasContainedDataInBookmarkedArray:(NSDictionary *)data
 {
-    if ([bookmarkedArray count] == 0) return NO;
+    if ([newsModel.bookmarkedArray count] == 0) return NO;
     
-    for(int i = 0; i < [bookmarkedArray count];i++){
-        NSDictionary *bData = [bookmarkedArray objectAtIndex:i];
+    for(int i = 0; i < [newsModel.bookmarkedArray count];i++){
+        NSDictionary *bData = [newsModel.bookmarkedArray objectAtIndex:i];
         // check alraedy exist.
         if ([data isEqual:bData]){
+            NSLog(@"exists");
             return YES;
         }
     }
@@ -222,24 +211,18 @@
     NSDictionary *data = [newsModel.items objectAtIndex:btn.tag];
     
     if ([t isEqual:@"plus"]){
-        NSLog(@"called insert");
         //insert
-        [bookmarkedArray addObject:data];
-        NSLog(@"bookmarkdArray is %@",bookmarkedArray);
+        [newsModel.bookmarkedArray addObject:data];
         [btn setBackgroundImage:[UIImage imageNamed:@"minus.png"] forState:UIControlStateNormal];
         btn.titleLabel.text = @"minus";
     }else{
         //delete
-        
-        NSLog(@"called delete");
-        [bookmarkedArray removeObject:data];
+        [newsModel.bookmarkedArray removeObject:data];
         [btn setBackgroundImage:[UIImage imageNamed:@"plus.png"] forState:UIControlStateNormal];
         btn.titleLabel.text = @"plus";
     }
-    [ud setObject:bookmarkedArray forKey:@"bookmarkedArray"];
+    [ud setObject:newsModel.bookmarkedArray forKey:@"bookmarkedArray"];
     [ud synchronize];
-    
-    
 }
 
 

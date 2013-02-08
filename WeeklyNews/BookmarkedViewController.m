@@ -16,6 +16,7 @@
 {
     NSUserDefaults *ud;
     NSMutableArray *bookmarkedArray;
+    NewsModel *newsModel;
 
 }
 
@@ -30,11 +31,16 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     NSLog(@"viewAppear");
+    newsModel = [NewsModel shared];
     
-    ud = [NSUserDefaults standardUserDefaults];
+//    ud = [NSUserDefaults standardUserDefaults];
+    [self.tableView reloadData];
     
+    newsModel.bookmarkedArray = [[[newsModel.bookmarkedArray reverseObjectEnumerator] allObjects] mutableCopy];
+    
+    NSLog(@"newsModel.bookMarkedArray is %@",newsModel.bookmarkedArray);
 
-    bookmarkedArray = [[[[ud objectForKey:@"bookmarkedArray"] reverseObjectEnumerator] allObjects] mutableCopy];
+//    bookmarkedArray = [[[[ud objectForKey:@"bookmarkedArray"] reverseObjectEnumerator] allObjects] mutableCopy];
     [self.tableView setEditing:YES animated:YES];
 
     
@@ -67,7 +73,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [bookmarkedArray count];
+    return [newsModel.bookmarkedArray count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -76,13 +82,13 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     NSString *titleStr;
-    if ([bookmarkedArray objectAtIndex:indexPath.row]){
-         titleStr = [[bookmarkedArray objectAtIndex:indexPath.row] valueForKey:@"content"];
+    if ([newsModel.bookmarkedArray objectAtIndex:indexPath.row]){
+         titleStr = [[newsModel.bookmarkedArray objectAtIndex:indexPath.row] valueForKey:@"content"];
     }
     
     
     if (cell == nil) {
-        NSDictionary *data = [bookmarkedArray objectAtIndex:indexPath.row];
+        NSDictionary *data = [newsModel.bookmarkedArray objectAtIndex:indexPath.row];
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         cell.textLabel.numberOfLines = 5;
         
@@ -93,7 +99,7 @@
         [cell setBackgroundColor:[UIColor redColor]];
         
         UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
-        int rowNum = [bookmarkedArray indexOfObject:data];
+        int rowNum = [newsModel.bookmarkedArray indexOfObject:data];
         btn.tag = rowNum;
         [btn addTarget:self action:@selector(onToggle:) forControlEvents:UIControlEventTouchUpInside];
         [btn setBackgroundImage:[UIImage imageNamed:@"minus.png"] forState:UIControlStateNormal];
@@ -115,10 +121,10 @@
 {
     UIButton *btn = (UIButton *)sender;
     NSLog(@"btn.tag is %i",btn.tag);
-    NSDictionary *dic = [bookmarkedArray objectAtIndex:btn.tag];
-    [bookmarkedArray removeObject:dic];
+    NSDictionary *dic = [newsModel.bookmarkedArray objectAtIndex:btn.tag];
+    [newsModel.bookmarkedArray removeObject:dic];
     // 一番最初にリバースした奴なので、もう一回リバースしてもとに戻す。
-    [ud setObject:bookmarkedArray forKey:@"bookmarkedArray"];
+//    [ud setObject:bookmarkedArray forKey:@"bookmarkedArray"];
     
     
 }
@@ -127,11 +133,11 @@
 
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         
-        NSDictionary *dic = [bookmarkedArray objectAtIndex:indexPath.row];
-        [bookmarkedArray removeObject:dic];
+        NSDictionary *dic = [newsModel.bookmarkedArray objectAtIndex:indexPath.row];
+        [newsModel.bookmarkedArray removeObject:dic];
         // 一番最初にリバースした奴なので、もう一回リバースしてもとに戻す。
-        [ud setObject:bookmarkedArray forKey:@"bookmarkedArray"];
-        [ud synchronize];
+//        [ud setObject:bookmarkedArray forKey:@"bookmarkedArray"];
+//        [ud synchronize];
         // 削除処理
 		// 該当するデータを削除する
 		

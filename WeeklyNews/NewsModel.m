@@ -12,13 +12,20 @@
 
 
 
-static NewsModel *newsModel;
+static NewsModel *newsModel = nil;
 
 +(id)shared
 {
     if (!newsModel){
         newsModel = [[NewsModel alloc] init];
         newsModel.items = [[NSMutableArray alloc] init];
+        newsModel.bookmarkedArray = [[NSMutableArray alloc] init];
+        NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+        NSMutableArray *data = [ud objectForKey:@"bookmarkedArray"];
+        if (data) newsModel.bookmarkedArray = data;
+        
+//        NSLog(@"newsModel.")
+        
     }
     return newsModel;
 }
@@ -26,7 +33,6 @@ static NewsModel *newsModel;
 
 -(id)init
 {
-    NSData *data = [@"<html><p>&#8211 Test</p></html>" dataUsingEncoding:NSUTF8StringEncoding];
 
     
     [self addObserver:self forKeyPath:@"currentNumber" options:NSKeyValueObservingOptionNew context:nil];
@@ -45,19 +51,7 @@ static NewsModel *newsModel;
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, NSString  *JSON) {
         
         for (NSDictionary *obj in [JSON valueForKey:@"data"]){
-            NSLog(@"obj is %@",obj);
-            
-//            NSString* html = @"<html><body>Simple HTML</body></html>";
-
-
-
-
-
-            
-            
-
             NSString *content = [ self parse:[obj valueForKey:@"content"]];
-            NSLog(@"content is %@",content);
             NSString *href = [obj valueForKey:@"href"];
             if (content != NULL || href != NULL ){
                 if (![content isEqualToString:@"None"]){
