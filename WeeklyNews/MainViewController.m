@@ -136,7 +136,7 @@
             NSDictionary *data = [newsModel.items objectAtIndex:indexPath.row];
             cell.textLabel.text = [[newsModel.items objectAtIndex:indexPath.row] objectForKey:@"content"];
             
-            UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
+            UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
             int rowNum = [newsModel.items indexOfObject:data];
             btn.tag = rowNum;
             
@@ -144,10 +144,12 @@
             if ([self hasContainedDataInBookmarkedArray:data]){
                 [btn setBackgroundImage:[UIImage imageNamed:@"minus.png"] forState:UIControlStateNormal];
                 btn.titleLabel.text = @"minus";
+                cell.tag = 100;
             }else{
                 
                 [btn setBackgroundImage:[UIImage imageNamed:@"plus.png"] forState:UIControlStateNormal];
                 btn.titleLabel.text = @"plus";
+                cell.tag = 1;
                 
             }
             cell.accessoryView = btn;
@@ -222,6 +224,24 @@
     }
     [ud setObject:newsModel.bookmarkedArray forKey:@"bookmarkedArray"];
     [ud synchronize];
+    [self.tableView reloadData];
+    
+}
+
+- (void)tableView:(UITableView *)tableView
+  willDisplayCell:(UITableViewCell *)cell
+forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"cel.tag is %i",cell.tag);
+    // For even
+    if (cell.tag  == 1) {
+    }
+    // For odd
+    else {
+//        cell.backgroundColor = [UIColor colorWithRed:0 green:255 blue:0 alpha:0.1];
+        cell.backgroundColor = [UIColor colorWithRed:255 green:140 blue:0 alpha:1];
+//        cell.detailTextLabel.backgroundColor  = [UIColor colorWithRed:0 green:255 blue:0 alpha:0.1];
+    }
 }
 
 
