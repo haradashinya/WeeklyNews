@@ -27,7 +27,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.navigationController.navigationBar.tintColor = [UIColor lightGrayColor];
+    self.navigationController.navigationBar.topItem.title = @"WeeklyNews" ;
+
     ud = [NSUserDefaults standardUserDefaults];
     
     newsModel = [NewsModel shared];
@@ -237,7 +239,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
     if (cell.tag  == 1) {
     }
     // For odd
-    else {
+    else if (cell.tag == 100){
 //        cell.backgroundColor = [UIColor colorWithRed:0 green:255 blue:0 alpha:0.1];
         cell.backgroundColor = [UIColor colorWithRed:255 green:140 blue:0 alpha:1];
 //        cell.detailTextLabel.backgroundColor  = [UIColor colorWithRed:0 green:255 blue:0 alpha:0.1];
