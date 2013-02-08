@@ -13,4 +13,5 @@ dependencies: \
   /Users/haradashinya/project/WeeklyNews/Pods/Headers/AFNetworking/UIImageView+AFNetworking.h \
   /Users/haradashinya/project/WeeklyNews/WeeklyNews/NewsModel.h \
   /Users/haradashinya/project/WeeklyNews/Pods/Headers/JSONKit/JSONKit.h \
-  /Users/haradashinya/project/WeeklyNews/DetailViewController.h
+  /Users/haradashinya/project/WeeklyNews/DetailViewController.h \
+  /Users/haradashinya/project/WeeklyNews/GradView.h

@@ -10,6 +10,7 @@
 #import "AFNetworking.h"
 #import "NewsModel.h"
 #import "DetailViewController.h"
+#import "GradView.h"
 
 @interface MainViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;

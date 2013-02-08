@@ -10,6 +10,7 @@
 		0649E0E016C5A25000AF47C2 /* minus@2x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 0649E0DF16C5A25000AF47C2 /* minus@2x copy.png */; };
 		0649E0E216C5A42E00AF47C2 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 0649E0E116C5A42E00AF47C2 /* plus.png */; };
 		0649E0E416C5A43400AF47C2 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0649E0E316C5A43400AF47C2 /* plus@2x.png */; };
+		0649E0E716C5AB5800AF47C2 /* GradView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0649E0E616C5AB5800AF47C2 /* GradView.m */; };
 		064B10F116A04D45008FB4C9 /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 064B10F016A04D45008FB4C9 /* NewsModel.m */; };
 		068998CF16C297F300A83DC5 /* BookmarkedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068998CE16C297F300A83DC5 /* BookmarkedViewController.m */; };
 		06D2DC45169EFF11003158D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D2DC44169EFF10003158D7 /* UIKit.framework */; };
@@ -48,6 +49,8 @@
 		0649E0DF16C5A25000AF47C2 /* minus@2x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus@2x copy.png"; sourceTree = "<group>"; };
 		0649E0E116C5A42E00AF47C2 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 		0649E0E316C5A43400AF47C2 /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
+		0649E0E516C5AB5800AF47C2 /* GradView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradView.h; sourceTree = "<group>"; };
+		0649E0E616C5AB5800AF47C2 /* GradView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradView.m; sourceTree = "<group>"; };
 		064B10EF16A04D45008FB4C9 /* NewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsModel.h; sourceTree = "<group>"; };
 		064B10F016A04D45008FB4C9 /* NewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsModel.m; sourceTree = "<group>"; };
 		068998CD16C297F300A83DC5 /* BookmarkedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkedViewController.h; sourceTree = "<group>"; };
@@ -197,6 +200,8 @@
 				06EA157F16BFFA240018F0BD /* minus.png */,
 				0649E0E116C5A42E00AF47C2 /* plus.png */,
 				0649E0E316C5A43400AF47C2 /* plus@2x.png */,
+				0649E0E516C5AB5800AF47C2 /* GradView.h */,
+				0649E0E616C5AB5800AF47C2 /* GradView.m */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 				064B10F116A04D45008FB4C9 /* NewsModel.m in Sources */,
 				06D968D716B814E700CFC56B /* DetailViewController.m in Sources */,
 				068998CF16C297F300A83DC5 /* BookmarkedViewController.m in Sources */,
+				0649E0E716C5AB5800AF47C2 /* GradView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
