@@ -55,6 +55,7 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:NO];
+//    [self.navigationController.navigationBar setHidden:NO];
     
 }
 -(void)viewDidAppear:(BOOL)animated
@@ -248,7 +249,6 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
         cell.backgroundColor = [UIColor colorWithRed:255 green:140 blue:0 alpha:0.9];
     }
 }
-
 
 
 

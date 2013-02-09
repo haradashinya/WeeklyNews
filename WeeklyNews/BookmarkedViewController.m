@@ -33,6 +33,7 @@
     NSLog(@"viewAppear");
     newsModel = [NewsModel shared];
     [self.tableView setAllowsSelection:YES];
+    [self.navigationController.navigationBar setHidden:NO];
     
     [self.tableView reloadData];
     

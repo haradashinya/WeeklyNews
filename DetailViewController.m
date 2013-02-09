@@ -71,16 +71,12 @@
 -(void)onSwipeRight:(id)sender
 {
     NSLog(@"right");
-//
-//    MainViewController *mvc = [[MainViewController alloc] init];
-//    NSLog(@"left");
-//    [self.navigationController pushViewController:mvc animated:NO
     [self.navigationController popViewControllerAnimated:YES];
+    [self.navigationController setNavigationBarHidden:NO];
 }
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    self.navigationController.navigationBarHidden = YES;
     webView = [[UIWebView alloc] init];
     CGRect rect = [[UIScreen mainScreen] bounds];
     webView.frame = CGRectMake(0,0,rect.size.width,rect.size.height);
@@ -101,6 +97,7 @@
         
  
 }
+
 
 
 
