@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "NewsModel.h"
+#import "MainViewController.h"
 
-@interface DetailViewController : UIViewController<UIWebViewDelegate>
+@interface DetailViewController : UIViewController<UIWebViewDelegate,UIGestureRecognizerDelegate>
 
 @end

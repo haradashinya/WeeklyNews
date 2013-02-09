@@ -254,4 +254,8 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
 
 - (IBAction)onTappedStarButton:(id)sender {
 }
+
+
+
+
 @end

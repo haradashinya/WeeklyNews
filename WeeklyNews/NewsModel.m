@@ -49,6 +49,7 @@ static NSString *baseURL = @"http://54.249.239.45/";
     
     NSString *urlStr = [NSString stringWithFormat:@"%@/latest/%@",baseURL,num];
     
+    NSLog(@"calle d fetch");
     
     NSURL *url = [[NSURL alloc] initWithString: urlStr];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];

@@ -24,6 +24,7 @@
     if (self) {
         newsModel = [NewsModel shared];
         
+        
         // Custom initialization
     }
     return self;
@@ -36,6 +37,47 @@
 	// Do any additional setup after loading the view.
 }
 // ここにWebViewをロードする。
+
+
+-(void)startObservingSwipeLeftAction
+{
+    
+    UISwipeGestureRecognizer *swiper = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(onSwipeLeft:)];
+    
+    [swiper setDirection:(UISwipeGestureRecognizerDirectionLeft)];
+    
+    [[self view] addGestureRecognizer:swiper];
+    
+}
+
+-(void)startObservingSwipeRightAction
+{
+    
+    
+    UISwipeGestureRecognizer *swiper = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(onSwipeRight:)];
+    
+    [swiper setDirection:(UISwipeGestureRecognizerDirectionRight)];
+    
+    [[self view] addGestureRecognizer:swiper];
+    
+}
+-(void)onSwipeLeft:(id)sender
+{
+    NSLog(@"left");
+//    [self.navigationController pushViewController:mvc animated:NO];
+}
+
+// on back
+-(void)onSwipeRight:(id)sender
+{
+    NSLog(@"right");
+//
+//    MainViewController *mvc = [[MainViewController alloc] init];
+//    NSLog(@"left");
+//    [self.navigationController pushViewController:mvc animated:NO
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 -(void)viewDidAppear:(BOOL)animated
 {
     self.navigationController.navigationBarHidden = YES;
@@ -53,7 +95,16 @@
     [webView setBackgroundColor:[UIColor blackColor]];
     [self.view addSubview:webView];
     
+    NSLog(@"osss");
+    [self startObservingSwipeRightAction];
+    [self startObservingSwipeLeftAction];
+        
+ 
 }
+
+
+
+
 
 - (void)didReceiveMemoryWarning
 {
