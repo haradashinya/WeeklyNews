@@ -13,6 +13,7 @@
 
 
 static NewsModel *newsModel = nil;
+static NSString *baseURL = @"http://54.249.239.45/";
 
 +(id)shared
 {
@@ -44,7 +45,10 @@ static NewsModel *newsModel = nil;
     // like 114.html
     NSString *num = [[NSString alloc] initWithFormat:@"%d",self.currentNumber];
     
-    NSString *urlStr = [NSString stringWithFormat:@"http://localhost:5000/latest/%@",num];
+//    NSString *urlStr = [NSString stringWithFormat:@"http://localhost:5000/latest/%@",num];
+    
+    NSString *urlStr = [NSString stringWithFormat:@"%@/latest/%@",baseURL,num];
+    
     
     NSURL *url = [[NSURL alloc] initWithString: urlStr];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
@@ -71,7 +75,9 @@ static NewsModel *newsModel = nil;
 // fetch latest number from all articles
 -(void)fetchLatestNumber
 {
-    NSURL *url = [NSURL URLWithString:@"http://localhost:5000/latest_number"];
+    NSString *urlStr = [NSString stringWithFormat:@"%@/latest_number",baseURL];
+//    NSURL *url = [NSURL URLWithString:@"http://localhost:5000/latest_number"];
+    NSURL *url = [NSURL URLWithString:urlStr];
     NSURLRequest *req = [NSURLRequest requestWithURL:url];
     
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:req success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {

@@ -4,8 +4,12 @@ from flask import jsonify
 from BeautifulSoup import *
 from models.link import Link
 
+from werkzeug.contrib.fixers import ProxyFix
+
 import json
 import re
+
+
 
 
 app = Flask(__name__)
@@ -77,6 +81,7 @@ def latest(article_id):
 
 
 
+app.wsgi_app = ProxyFix(app.wsgi_app)
 if __name__ == "__main__":
     app.debug = True
-    app.run()
+    app.run(host='0.0.0.0',port=3000)

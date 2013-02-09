@@ -31,12 +31,14 @@
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
 // ここにWebViewをロードする。
 -(void)viewDidAppear:(BOOL)animated
 {
+    self.navigationController.navigationBarHidden = YES;
     webView = [[UIWebView alloc] init];
     CGRect rect = [[UIScreen mainScreen] bounds];
     webView.frame = CGRectMake(0,0,rect.size.width,rect.size.height);
