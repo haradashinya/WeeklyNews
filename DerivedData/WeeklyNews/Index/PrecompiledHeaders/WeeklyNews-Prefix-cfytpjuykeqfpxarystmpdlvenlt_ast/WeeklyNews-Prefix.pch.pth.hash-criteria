@@ -1,0 +1,32 @@
+Contents of /Users/haradashinya/project/WeeklyNews/WeeklyNews/WeeklyNews-Prefix.pch
+4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn)
+arm-apple-darwin12.2.0
+-x
+objective-c
+-arch
+armv7
+-fmessage-length=0
+-std=gnu99
+-fobjc-arc
+-fpascal-strings
+-Os
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+-g
+-fvisibility=hidden
+-DIBOutlet=__attribute__((iboutlet))
+-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))
+-DIBAction=void)__attribute__((ibaction)
+-miphoneos-version-min=6.0
+-I/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/ArchiveIntermediates/WeeklyNews/BuildProductsPath/Release-iphoneos/include
+-I/Users/haradashinya/project/WeeklyNews/Pods/Headers
+-I/Users/haradashinya/project/WeeklyNews/Pods/Headers/AFNetworking
+-I/Users/haradashinya/project/WeeklyNews/Pods/Headers/DTFoundation
+-I/Users/haradashinya/project/WeeklyNews/Pods/Headers/JSONKit
+-F/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/ArchiveIntermediates/WeeklyNews/BuildProductsPath/Release-iphoneos
+-ferror-limit=10
+-working-directory=/Users/haradashinya/project/WeeklyNews
+-Xclang
+-detailed-preprocessing-record
+-DNS_BLOCK_ASSERTIONS=1
+SDK_PRODUCT_BUILD_VERSION=10A403

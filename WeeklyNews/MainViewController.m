@@ -29,6 +29,7 @@
     [super viewDidLoad];
     self.navigationController.navigationBar.tintColor = [UIColor lightGrayColor];
     self.navigationController.navigationBar.topItem.title = @"JSW" ;
+    
 
     ud = [NSUserDefaults standardUserDefaults];
     
@@ -51,6 +52,10 @@
         [newDataArray addObject:[NSString stringWithFormat:@"%i",i]];
     }
     
+}
+-(void)onSettings:(id)sender
+{
+    NSLog(@"onSettings");
 }
 -(void)viewWillAppear:(BOOL)animated
 {

@@ -36,45 +36,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
-// ここにWebViewをロードする。
-
-
--(void)startObservingSwipeLeftAction
-{
-    
-    UISwipeGestureRecognizer *swiper = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(onSwipeLeft:)];
-    
-    [swiper setDirection:(UISwipeGestureRecognizerDirectionLeft)];
-    
-    [[self view] addGestureRecognizer:swiper];
-    
-}
-
--(void)startObservingSwipeRightAction
-{
-    
-    
-    UISwipeGestureRecognizer *swiper = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(onSwipeRight:)];
-    
-    [swiper setDirection:(UISwipeGestureRecognizerDirectionRight)];
-    
-    [[self view] addGestureRecognizer:swiper];
-    
-}
--(void)onSwipeLeft:(id)sender
-{
-    NSLog(@"left");
-//    [self.navigationController pushViewController:mvc animated:NO];
-}
-
-// on back
--(void)onSwipeRight:(id)sender
-{
-    NSLog(@"right");
-    [self.navigationController popViewControllerAnimated:YES];
-    [self.navigationController setNavigationBarHidden:NO];
-}
-
 -(void)viewDidAppear:(BOOL)animated
 {
     webView = [[UIWebView alloc] init];
@@ -91,10 +52,8 @@
     [webView setBackgroundColor:[UIColor blackColor]];
     [self.view addSubview:webView];
     
-    NSLog(@"osss");
-    [self startObservingSwipeRightAction];
-    [self startObservingSwipeLeftAction];
-        
+    
+    
  
 }
 

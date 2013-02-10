@@ -1,0 +1,1 @@
+/Users/haradashinya/project/WeeklyNews/DerivedData/WeeklyNews/Build/Intermediates/ArchiveIntermediates/WeeklyNews/InstallationBuildProductsLocation/Applications/WeeklyNews.app
