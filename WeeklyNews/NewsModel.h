@@ -24,5 +24,6 @@
 -(void)fetchLatestNumber;
 -(void)receivedNewsWith:(NSArray *)data;
 -(void)receivedNews;
+-(void)showNetWorkError;
 
 @end

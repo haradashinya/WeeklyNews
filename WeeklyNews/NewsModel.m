@@ -84,6 +84,7 @@ static NSString *baseURL = @"http://54.249.239.45/";
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:req success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
         self.currentNumber = [[JSON valueForKey:@"data"] intValue];
     } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
+        [self.delegate showNetWorkError];
         NSLog(@"errror: %@",[error localizedDescription]);
     }];
     [operation start];

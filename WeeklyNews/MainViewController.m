@@ -260,6 +260,12 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
 - (IBAction)onTappedStarButton:(id)sender {
 }
 
+-(void)showNetWorkError
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Network Error happend" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:nil];
+    [alert show];
+
+}
 
 
 
